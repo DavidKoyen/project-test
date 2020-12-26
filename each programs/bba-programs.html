@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../dist/css/style.css">
+    <link rel="stylesheet" href="../dist/fontawesome-5.14.0-web/css/all.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script type="text/javascript" src="../dist/js/jquery.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../dist/js/search.js"></script>
+    <title>BBA-Syllabus</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="../dist/icons/logo2.png" alt="" height="30px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle"
+            aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbar-toggle">
+            <ul class="navbar-nav ml-auto pr-5">
+                <li class="nav-item active ">
+                    <a class="nav-link" href="../index.html"><i class="fas fa-home"></i>&nbsp; Home <span
+                            class="sr-only">(current)</span></a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                            class="fas fa-swatchbook"></i>&nbsp;
+                        Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-laptop-code"></i>&nbsp;BCA</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-business-time"></i>&nbsp;BBA</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-hotel"></i>&nbsp;BHM</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-swatchbook"></i>&nbsp;M.Sc</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-hand-holding-medical"></i>&nbsp;B.Pharm</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-pills"></i>&nbsp;D.Pharm</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-eye"></i>&nbsp;B.Optometry</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"><i class="fas fa-dollar-sign"></i>&nbsp;Courses fee</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Placments</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                            class="fas fa-sign-in-alt"></i> &nbsp;
+                        Join US
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-headset"></i>&nbsp; Contact US</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div class="programs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 program-desc text-center">
+                    <p><i class="fas fa-laptop"></i></p>
+                    <h4>Bachelor of Business Administration (BBA)</h4>
+                    <p>Find the subject, grab a cup of coffee and begin the journey of learning.</p>
+
+                </div>
+
+                <div class="container search-bar">
+                    <div class="col-md-12 col-md-offset-3">
+                        <form role="form" class="search-form">
+                            <div class="form-group">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="fas fa-swatchbook"></i></div>
+                                    </div>
+                                    <input type="search" value="" class="form-control" id="myinput" onkeyup="searchFunction()"
+                                        placeholder="Type the subject name" aria-label="Search">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-success" type="submit"><i
+                                                class="fas fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row each-subject" id="subjects">
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>English</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/c-progamming.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;English</span>
+                                </h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
+                                        Intermediate</span></h6>
+                                <p>You don't need to have prior knowledge on programming, in this course you will learn
+                                    it from basic.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Mr.-Surajit-Goon.jpg" alt="DB"
+                                        style="border-radius: 50%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Basics of Mathematics maths</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-4">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/enviroment-studies.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Basics of Mathematics</span>
+                                </h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;NULL</span></h6>
+                                <p>You will learn the natural, human, social and cultural dimensions of local and wider
+                                    environments.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Mr.-Krishna-Kundu.jpg" alt="DB"
+                                        style="border-radius: 50%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Fundamentals of Statistics</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-2">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/advance-math.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Fundamentals of Statistics</span>
+                                </h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
+                                        Intermediate</span></h6>
+                                <p>The knowledge gained during <b>HS</b> will be advanced with various numerical
+                                    problems.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Mrs.-Munmun-Mukherjee.jpg" alt="DB"
+                                        style="border-radius: 50%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Economics micro</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-3">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/programming-lab.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Economics (Micro)</span>
+                                </h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
+                                        Intermediate</span></h6>
+                                <p>You will have the hands on practice of basic and intermediate level in <b>C
+                                        Programming</b>.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Mr.-Aritra-Kundu.jpg" alt="DB"
+                                        style="border-radius: 50%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Computer Applications</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/pc-software.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Computer Applications</span>
+                                </h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
+                                        Intermediate</span></h6>
+                                <p>You will learn about computer, working with MS-Office and lot's more.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Indrani-Dalui.jpg" alt="DB"
+                                        style="border-radius: 50%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Business Communication</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Business Communication</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB"
+                                        style="border-radius: 50%;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Advanced Mathematics and Statistics maths</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Advanced Mathematics and Statistics</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Organizational Behaviour</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Organizational Behaviour</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Economics macro</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Economics (Macro)</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Indian Social Structure and Values & Ethics</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Indian Social Structure and Values & Ethics</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Principles of Management/p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Principles of Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Managerial Economics</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Managerial Economics</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Business Laws</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Business Laws</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Financial Accounting</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Financial Accounting</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Environmental Sciences</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Environmental Sciences</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Production & Materials Management</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Production & Materials Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Management Information Systems</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Management Information Systems</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Cost Accounting</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Cost Accounting</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Marketing Management</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Marketing Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Human Resource Management</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Human Resource Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Financial Management</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Financial Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Sales & Distribution Management</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Sales & Distribution Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Human Resource Development</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Human Resource Development</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Entrepreneurship Development</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Entrepreneurship Development</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Research Methodology</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Research Methodology</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Management Accounting</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Management Accounting</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Advertising & Sales Promotion</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Advertising & Sales Promotion</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Industrial Relations</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Industrial Relations</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Public Service Management</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Public Service Management</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-3 subject">
+                    <div class="filter-tag">
+                        <p>Project and Viva</p>
+                    </div>
+                    <a href="../courses/c++/c-plus-desc.html">
+                        <div class="outer-card">
+                            <div class="outer-card-top-1">
+                                <div class="program-header">
+                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                                </div>
+                                <div class="course-icon">
+                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
+                                </div>
+                            </div>
+                            <div class="outer-body program-course-desc">
+                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Project and Viva</span></h6>
+                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
+                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
+                                        :</b><span>&nbsp;Intermediate</span></h6>
+                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
+                                    understanding.</p>
+                                <div class="outer-footer">
+                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
+                
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
