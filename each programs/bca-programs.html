@@ -2,81 +2,604 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../dist/css/style.css">
-    <link rel="stylesheet" href="../dist/fontawesome-5.14.0-web/css/all.css">
-    <!-- JS, Popper.js, and jQuery -->
-    <script type="text/javascript" src="../dist/js/jquery.js"></script>
-    <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
-    <title>BCA-Syllabus</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../dist/css/style.css" />
+  <link rel="stylesheet" href="../dist/fontawesome-5.14.0-web/css/all.css" />
+  <!-- JS, Popper.js, and jQuery -->
+  <script type="text/javascript" src="../dist/js/jquery.js"></script>
+  <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+  <title>BCA-Syllabus</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-expand-lg bg-light fixed-top">
+    <a class="navbar-brand" href="../index.html"><img src="../dist/icons/ecmt_logo.png" alt="" height="40px" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle"
+      aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <nav class="navbar navbar-expand-lg navbar-light navbar-expand-lg bg-light fixed-top">
-        <a class="navbar-brand" href="index.html"><img src="dist/icons/ecmt_logo.png" alt="" height="40px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle"
-            aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="collapse navbar-collapse" id="navbar-toggle">
+      <ul class="navbar-nav ml-auto pr-5">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i>&nbsp; Home
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;About Program</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Admission Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Fees</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="login" data-toggle="modal" data-target="#exampleModalCenter"><i
+              class="fas fa-sign-in-alt"></i>&nbsp; Login
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-        <div class="collapse navbar-collapse " id="navbar-toggle">
-            <ul class="navbar-nav ml-auto pr-5">
-                <li class="nav-item active ">
-                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i>&nbsp; Home <span
-                            class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="courses-offered" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                            class="fas fa-swatchbook"></i>&nbsp;
-                        Courses
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="courses-offered">
-                        <a class="dropdown-item" href="#"><i class="fas fa-laptop-code"></i>&nbsp;BCA</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-business-time"></i>&nbsp;BBA</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-hotel"></i>&nbsp;BHM</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-swatchbook"></i>&nbsp;M.Sc</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-hand-holding-medical"></i>&nbsp;B.Pharm</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-pills"></i>&nbsp;D.Pharm</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-eye"></i>&nbsp;B.Optometry</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Placments</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-headset"></i>&nbsp; Contact US</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="login" data-toggle="modal"
-                            data-target="#exampleModalCenter"><i class="fas fa-sign-in-alt"></i>&nbsp;
-                        Login
-                    </a>
-                </li>
-            </ul>
-
+  <div class="program">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="program-header col-lg-12 col-md-12">
+          <div class="program-header-bg bg-secondary"></div>
         </div>
-    </nav>
+      </div>
+      <div class="program-brand">
+        <img src="../dist/icons/bca/bca-logo.png" alt="" />
+      </div>
+      <div class="row program-cell">
+        <div class="program-desc col-md-6">
+          <p class="program-name">
+            <i class="fas fa-graduation-cap"></i><span>Bacholre of computer Application</span>
+          </p>
+          <p class="year">
+            <i class="fas fa-clock"></i><span>3 Years</span>
+          </p>
+          <p class="semester">
+            <i class="fas fa-hourglass"></i><span>Semesters : 6</span>
+          </p>
+          <p class="know-more">
+            <i class="fas fa-swatchbook"></i><span>Syllabus :</span><a href="#">Know more</a>
+          </p>
+          <p class="know-more">
+            <i class="fas fa-file-signature"></i><span>Admission Process :</span><a href="#">Know more</a>
+          </p>
+          <p class="know-more">
+            <i class="fas fa-hand-holding-usd"></i><span>Fee structure :</span><a href="#">Know more</a>
+          </p>
+          <div class="apply-btn">
+            <button class="btn">Start Application</button>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="program-banner">
+          <img src="#" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="program-overview">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h2>Program Overview</h2>
+        </div>
+        <div class="key-features col-md-6">
+          <h4>Top Subjects You Will Learn</h4>
+          <p>
+            Business Growth Strategies, Leadership, Strategic Thinking &
+            Planning Abilities, Integrated Business Strategy<span id="dots1">.....</span><span id="more-feature">
+              Formulation, Design Thinking, Change Management, Financing
+              Strategies, International Business, Developing High Performing
+              Organisations</span>
+          </p>
+          <button onclick="feature()" id="key-features" class="read-more-btn btn">
+            Read more
+          </button>
+        </div>
+        <div class="opportunities col-md-6">
+          <h4>Job Opportunities</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+            scel<span id="dots2">.....</span><span id="more-opportunities">erisque enim ligula venenatis dolor. Maecenas
+              nisl est,
+              ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta.</span>
+          </p>
+          <button onclick="opportunities()" id="opportunities" class="read-more-btn btn">
+            Read more
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="program-for col-md-6">
+          <h4>Who Is This Program For?</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+            scel<span id="dots3">.....</span><span id="more-program">erisque enim ligula venenatis dolor. Maecenas nisl
+              est,
+              ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta.</span>
+          </p>
+          <button onclick="programFor()" id="program-for" class="read-more-btn btn">
+            Read more
+          </button>
+        </div>
+        <div class="eligibility col-md-6">
+          <h4>Minimum Eligibility</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+            scel<span id="dots4">.....</span><span id="more-eligibility">erisque enim ligula venenatis dolor. Maecenas
+              nisl est,
+              ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta.</span>
+          </p>
+          <button onclick="eligibility()" id="eligibility" class="read-more-btn btn">
+            Read more
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- ========================career impact=============== -->
+  <div class="career-impact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="c-impact-header col-lg-12 col-md-12">
+          <h2>career Impact</h2>
+        </div>
+      </div>
+      <div class="impacts">
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <div class="card impact-card">
+              <div class="impact-header icon-bg-1">
+                <i class="fas fa-swatchbook"></i>
+              </div>
+              <div class="impact-title">
+                <p>Career Counselling</p>
+              </div>
+              <div class="impact-body">
+                <p>
+                  Get personalised career pathing from tutors to chart out the
+                  best opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card impact-card">
+              <div class="impact-header icon-bg-2">
+                <i class="fas fa-swatchbook"></i>
+              </div>
+              <div class="impact-title">
+                <p>Resume Feedback</p>
+              </div>
+              <div class="impact-body">
+                <p>
+                  Obtain specific, personalised inputs on your resume
+                  structure and content from mentors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card impact-card">
+              <div class="impact-header icon-bg-3">
+                <i class="fas fa-swatchbook"></i>
+              </div>
+              <div class="impact-title">
+                <p>Interview Preparation</p>
+              </div>
+              <div class="impact-body">
+                <p>
+                  Receive one-on-one mock interviews conducted by faculty and
+                  detailed feedback after an interview
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card impact-card">
+              <div class="impact-header icon-bg-4">
+                <i class="fas fa-swatchbook"></i>
+              </div>
+              <div class="impact-title">
+                <p>Job Placement</p>
+              </div>
+              <div class="impact-body">
+                <p>
+                  Get an opportunity to interview for Tech. companies
+                  partnered with ECMT
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="impact-footer"></div>
+  </div>
+  <!-- =======================syllabus=================== -->
+  <section class="syllabus">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="syllabus-header">
+            <div class="syllabus-title">
+              <h2>Syllabus</h2>
+            </div>
+            <div class="syllabus-download">
+              <button class="btn btn-success">Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="benifits">
+            <div class=" benifit-row">
+              <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight  bg-primary">
+                  <ul>
+                    <li class="fleft">
+                      <span class="quant">55</span>
+                      <span class="quant-name">Deepak</span>
+                    </li>
 
-    <div class="programs">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="program-header col-lg-12 col-md-12">
-                    <img src="../dist/bgs/header-bg-4.png" alt="">
+                  </ul>
                 </div>
+                <div class="p-2 flex-fill bd-highlight bg-warning">
+                  <ul>
+                    <li class="fright">
+                      <span class="quant">55</span>
+                      <span class="quant-name">Deepak</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight  bg-primary">
+                  <ul>
+                    <li class="fleft">
+                      <span class="quant">55</span>
+                      <span class="quant-name">Deepak</span>
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="p-2 flex-fill bd-highlight bg-warning">
+                  <ul>
+                    <li class="fright">
+                      <span class="quant">55</span>
+                      <span class="quant-name">Deepak</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="semester-syllabus">
+            <div class="sem-box">
+              <div data-toggle="collapse" id="outer-box" class="sem-info rotate" data-target="#demo">Semester -1<i
+                  class="fas fa-angle-up"></i>
+                <div class="subjects">
+                  <ul>
+                    <li class="num-subject">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 12 13">
+                        <path fill="none" stroke="#6F7B83" stroke-width="1.524" d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                      </svg>
+                      <span class="theory-number">4</span>
+                      <span class="theory leftp">Theory</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                        <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                          d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                        </path>
+                      </svg>
+                      <span class="prac-num">1</span>
+                      <span class="practical">Practical</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <ul class="collapse subject-list" id="demo">
+                <li>Fundamentals of Marketing</li>
+                <li>Marketing Channels</li>
+                <li>Marketing Channels</li>
+              </ul>
             </div>
 
-        </div>
-    </div>
-    </div>
+            <div class="sem-box">
+              <div data-toggle="collapse" class="sem-info" data-target="#demo1">Simple collapsible<i
+                  class="fas fa-angle-up"></i>
+                <div class="subjects">
+                  <ul>
+                    <li class="num-subject">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 12 13">
+                        <path fill="none" stroke="#6F7B83" stroke-width="1.524" d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                      </svg>
+                      <span class="theory-number">4</span>
+                      <span class="theory leftp">Theory</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                        <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                          d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                        </path>
+                      </svg>
+                      <span class="prac-num">1</span>
+                      <span class="practical">Practical</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
+              <ul class="collapse subject-list" id="demo1">
+                <li>Fundamentals of Marketing</li>
+                <li>Marketing Channels</li>
+                <li>Marketing Channels</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ========================admission section====================== -->
+  <div class="admission-process">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="admission-header col-lg-12 col-md-12">
+          <h2>Admission Process</h2>
+          <p>
+            Please find below the detailed steps to be followed as a part of
+            the admission process.
+          </p>
+
+          <div class="process">
+            <div class="process-slider">
+              <a href="#step-1">1</a>
+              <a href="#step-2">2</a>
+              <a href="#step-3">3</a>
+              <a href="#step-4">4</a>
+              <a href="#step-5">5</a>
+
+              <div class="process-slides">
+                <div id="step-1">
+                  <div class="procedure">
+                    <div class="process-header">
+                      <p class="card-header">
+                        <i class="fas fa-bullhorn"></i> <span>Step-1</span>
+                      </p>
+                      <p class="step-heading">Complete Application :</p>
+                    </div>
+                    <div class="process-body">
+                      <p>
+                        bodyComplete Application Complete Application Complete
+                        Application Complete Application
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="step-2">
+                  <div class="procedure">
+                    <div class="process-header">
+                      <p class="card-header">
+                        <i class="fas fa-bullhorn"></i> <span>Step-2</span>
+                      </p>
+                      <p class="step-heading">
+                        Get shortlisted and receive the offer letter :
+                      </p>
+                    </div>
+                    <div class="process-body">
+                      <p>
+                        bodyComplete Application Complete Application Complete
+                        Application Complete Application
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="step-3">
+                  <div class="procedure">
+                    <div class="process-header">
+                      <p class="card-header">
+                        <i class="fas fa-bullhorn"></i> <span>Step-1</span>
+                      </p>
+                      <p class="step-heading">Complete Application :</p>
+                    </div>
+                    <div class="process-body">
+                      <p>
+                        bodyComplete Application Complete Application Complete
+                        Application Complete Application
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="step-4">
+                  <div class="procedure">
+                    <div class="process-header">
+                      <p class="card-header">
+                        <i class="fas fa-bullhorn"></i> <span>Step-1</span>
+                      </p>
+                      <p class="step-heading">Complete Application :</p>
+                    </div>
+                    <div class="process-body">
+                      <p>
+                        bodyComplete Application Complete Application Complete
+                        Application Complete Application
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="step-5">
+                  <div class="procedure">
+                    <div class="process-header">
+                      <p class="card-header">
+                        <i class="fas fa-bullhorn"></i> <span>Step-1</span>
+                      </p>
+                      <p class="step-heading">Complete Application :</p>
+                    </div>
+                    <div class="process-body">
+                      <p>
+                        bodyComplete Application Complete Application Complete
+                        Application Complete Application
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================fee structure====================== -->
+  <section class="fee-structure">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="fee-header">
+            <div class="fee-title">
+              <h2>Fee Structure</h2>
+            </div>
+            <div class="brochure-download">
+              <button class="btn btn-success">Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="d-flex bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight">
+              <h4>Tution fee</h4>
+              <p>45,2344</p>
+            </div>
+            <div class="p-2 bd-highlight">
+              <p>A processing fee will be charged on the basis of payment method selected.</p>
+              <p>Down payment of ₹15,000 has to be paid before the program begins.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="fee-details col-md-12 bg-secondary">
+          <h6>kdfhjl dlhldk</h6>
+          <p>asfsgaf </p>
+          <div class="d-flex bd-highlight">
+            <div class="p-2 flex-fill bd-highlight  bg-primary">
+              <p>Flex item with a lot of content</p>
+              <p>Flex item with a lot of content</p>
+            </div>
+            <div class="p-2 flex-fill bd-highlight bg-warning">
+              <p>Flex item with a lot of content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==============Read more functions================== -->
+  <script>
+    function feature() {
+      var dots = document.getElementById("dots1");
+      var moreText = document.getElementById("more-feature");
+      var btnText = document.getElementById("key-features");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    function opportunities() {
+      var dots = document.getElementById("dots2");
+      var moreText = document.getElementById("more-opportunities");
+      var btnText = document.getElementById("opportunities");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    function programFor() {
+      var dots = document.getElementById("dots3");
+      var moreText = document.getElementById("more-program");
+      var btnText = document.getElementById("program-for");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+    function eligibility() {
+      var dots = document.getElementById("dots4");
+      var moreText = document.getElementById("more-eligibility");
+      var btnText = document.getElementById("eligibility");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
 </body>
 
 </html>
