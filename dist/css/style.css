@@ -839,6 +839,9 @@ background-size: contain;
   color: white;
   font-weight: 500;
   font-family: "Varela Round", sans-serif;
+  box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
 }
 .program .program-desc .apply-btn i {
   margin-left: 30px;
@@ -945,6 +948,10 @@ background-size: contain;
   color: white;
   font-family: "Varela Round", sans-serif;
   font-size: 10px;
+  box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+
 }
 
 @media (max-width: 768px) {
@@ -977,7 +984,7 @@ background-size: contain;
 
 /* ================career impact================== */
 .career-impact {
-  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
+  background: #eee;
 }
 .career-impact .c-impact-header h2 {
   font-family: "Josefin Sans", sans-serif;
@@ -999,9 +1006,15 @@ background-size: contain;
 }
 .career-impact .impacts .impact-card {
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 100px;
   height: 280px;
-  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.85);
+    background: transparent;
+    border: 0;
+    border-radius: 20px;
 }
 .career-impact .impacts .impact-card .impact-header,
 .impact-title {
@@ -1013,7 +1026,9 @@ background-size: contain;
   background: #000;
   font-size: 20px;
   color: white;
-  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
 }
 .career-impact .impacts .impact-card .icon-bg-1 i{
   background-image: linear-gradient( 292.9deg,  rgba(254,105,241,1) 28.8%, rgba(182,44,248,1) 70.4% );
@@ -1035,12 +1050,6 @@ background-size: contain;
 .career-impact .impacts .impact-card .impact-body p{
   text-align: center;
 }
-.career-impact .impact-footer {
-  height: 250px;
-  width: 100%;
-  background: #eee;
-  margin-top: -150px;
-}
 @media (max-width: 768px){
   .career-impact .c-impact-header h2 {
   margin-left: 5px;
@@ -1053,7 +1062,8 @@ background-size: contain;
 }
 .career-impact .impacts .impact-card {
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   height: 250px;
   overflow: hidden;
 }
