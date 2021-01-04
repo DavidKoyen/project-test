@@ -798,7 +798,7 @@ background-size: contain;
   width: 100%;
 }
 .program .program-cell {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+  background: #f1eef2;
 }
 .program .program-desc {
   height: auto;
@@ -842,6 +842,10 @@ background-size: contain;
   box-shadow: 
     12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
     -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+}
+.program .program-desc .apply-btn .btn:hover, .program .program-desc .apply-btn .btn:active{
+  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
 }
 .program .program-desc .apply-btn i {
   margin-left: 30px;
@@ -906,7 +910,7 @@ background-size: contain;
 }
 .program-overview h2 {
   font-family: "Josefin Sans", sans-serif;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+  background: #f1eef2;
   margin-left: 20px;
   padding-bottom: 5px;
   padding-top: 10px;
@@ -949,21 +953,24 @@ background-size: contain;
   font-family: "Varela Round", sans-serif;
   font-size: 10px;
   box-shadow: 
-    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
-    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+    8px 8px 9px 0 rgba(255, 255, 255, 0.3) inset,
+    -6px -6px 8px 0 rgba(0, 0, 0, .25) inset;
 
 }
-
+.program-overview .read-more-btn:hover, .program-overview .read-more-btn:active{
+  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+}
 @media (max-width: 768px) {
   .program-overview h2 {
   margin-left: 5px;
   padding: 10px 0 10px 10px;
   width: 200px;
-  font-size: 15px;
+  font-size: 18px;
 }
 .program-overview h4 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 .program-overview .key-features,
 .opportunities,
@@ -1008,6 +1015,8 @@ background-size: contain;
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
   height: 280px;
   box-shadow: 
     12px 12px 16px 0 rgba(0, 0, 0, 0.25),
@@ -1055,7 +1064,7 @@ background-size: contain;
   margin-left: 5px;
   padding: 10px 0 10px 10px;
   width: 200px;
-  font-size: 15px;
+  font-size: 18px;
 }
 .career-impact .impacts {
   margin-top: 30px;
@@ -1090,7 +1099,8 @@ background-size: contain;
 /* =====================syllabus================== */
 .syllabus {
   padding-bottom: 50px;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+  background:  #39a6ea ;
+  font-family: "Varela Round", sans-serif;
 }
 .syllabus .syllabus-header .syllabus-title h2{
   font-family: "Josefin Sans", sans-serif;
@@ -1108,42 +1118,54 @@ background-size: contain;
 }
 .syllabus .syllabus-header .syllabus-download .btn{
   float: right;
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
   border-radius: 20px;
   color: white;
   font-family: "Varela Round", sans-serif;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
+box-shadow:  7px 7px 12px #318fc9,
+             -7px -7px 12px #41bdff;
 }
-.syllabus .syllabus-text {
+.syllabus .syllabus-header .syllabus-download .btn:hover, .syllabus .syllabus-header .syllabus-download .btn:active{
+  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+}
+.syllabus  .syllabus-text {
   color: white;
-  padding: 10px 0 10px 50px;
+  padding: 15px 0 20px 0;
 }
 .benifits ul{
   text-align: center;
 }
 .benifits li span{
   display: block;
+  font-weight: 400;
 }
 .quant-name{
- margin-top: 10px;
+ margin-top: 15px;
+ color: white;
 }
 .benifits .quant{
-  background: rgb(141, 196, 221);
+  background: transparent;
+  color: white;
+  font-size: 20px;
   width: 90px;
   height: 90px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
 }
 .sem-box {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 15px 0;
   background: #fff;
   cursor: pointer;
 }
 .sem-info {
-  padding: 10px 0 0 20px;
+  padding: 5px 0 0 20px;
 }
 .sem-info i {
   float: right;
@@ -1158,7 +1180,7 @@ background-size: contain;
   font-weight: normal;
 }
 .num-subject span.leftp {
-  padding-right: 100px;
+  padding-right: 80px;
 }
 .subject-list {
   background: #fff;
@@ -1173,6 +1195,49 @@ background-size: contain;
   padding: 15px 0 15px 20px;
   border-top: 1px solid #e6e8ea;
 }
+.subject-list li i{
+  color: #333;
+  padding-right: 10px;
+}
+.subject-list .practical i{
+  color: rgb(76, 76, 233);
+}
+.subject-list .sessional i{
+  color: rgb(233, 80, 80);
+}
+@media (max-width: 768px){
+  .syllabus .syllabus-header .syllabus-title h2{
+  margin-left: 5px;
+  padding: 10px 0 10px 10px;
+  width: 200px;
+  font-size: 18px;
+}
+.syllabus .syllabus-header .syllabus-download .btn{
+  font-size: 12px;
+}
+.syllabus  .syllabus-text {
+  padding: 15px 0 5px 5px;
+}
+.benifits ul{
+  font-size: 15px;
+}
+.sem-box {
+  margin: 10px 0 15px 5px;
+}
+.sem-info {
+  font-size: 14px;
+}
+.num-subject span.leftp {
+  padding-right: 30px;
+}
+.num-subject span {
+  font-size: 12px;
+}
+.subject-list {
+  font-size: 13px;
+}
+}
+
 /* =============admission process============== */
 .admission-process {
   padding-bottom: 50px;
@@ -1180,7 +1245,7 @@ background-size: contain;
 }
 .admission-process .admission-header h2 {
   font-family: "Josefin Sans", sans-serif;
-  background: #eee;
+  background:  #39a6ea ;
   margin-left: 20px;
   padding-bottom: 15px;
   border-bottom-left-radius: 20px;
