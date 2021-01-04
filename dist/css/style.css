@@ -234,11 +234,7 @@ a:active {
 /* =================courses section================== */
 .courses {
   padding: 40px;
-  background-image: radial-gradient(
-    circle 343px at 46.3% 47.5%,
-    rgba(242, 242, 242, 1) 0%,
-    rgba(241, 241, 241, 1) 72.9%
-  );
+  background: #e6e6e6;
 }
 .courses .course,
 .course-slog {
@@ -248,8 +244,12 @@ a:active {
   border-radius: 20px;
   overflow: hidden;
   border: none;
-  margin-top: 20px;
-  box-shadow: 1px 1px 2px 0 rgb(90, 87, 87), 0px 0px 6px 0 #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.529);
+  background: transparent;
 }
 .courses .course-banner img {
   object-fit: cover;
@@ -361,6 +361,7 @@ a:active {
 
 .career-counsle .counsle-form {
   text-align: center;
+  
 }
 .career-counsle .counsle-form h2 {
   color: rgb(237, 55, 55);
@@ -386,6 +387,8 @@ a:active {
   width: 50%;
   font-size: 15px;
   background-color: #e64949;
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   color: #fff !important;
 }
@@ -426,6 +429,7 @@ a:active {
   position: relative;
   width: 100%;
   border-radius: 20px;
+  
 }
 .placement .slider::before,
 .slider::after {
@@ -1028,7 +1032,7 @@ background-size: contain;
   font-size: 20px;
   font-weight: bold;
 }
-.career-impact .impacts .impact-card .impact-body{
+.career-impact .impacts .impact-card .impact-body p{
   text-align: center;
 }
 .career-impact .impact-footer {
@@ -1062,6 +1066,10 @@ background-size: contain;
   font-size: 15px;
   font-weight: bold;
 }
+.career-impact .impacts .impact-card .impact-body p{
+  text-align: center;
+  font-size: 12px;
+}
 .career-impact .impact-footer {
   height: 250px;
   width: 100%;
@@ -1074,20 +1082,32 @@ background-size: contain;
   padding-bottom: 50px;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
 }
-.syllabus .syllabus-header .syllabus-title {
-  float: left;
+.syllabus .syllabus-header .syllabus-title h2{
   font-family: "Josefin Sans", sans-serif;
   background: #eee;
   margin-left: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding-left: 20px;
   width: 30%;
+  float: left;
+  font-size: 25px;
   box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
 }
-.syllabus .syllabus-header .syllabus-download {
+.syllabus .syllabus-header .syllabus-download .btn{
   float: right;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
+  border-radius: 20px;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.syllabus .syllabus-text {
+  color: white;
+  padding: 10px 0 10px 50px;
 }
 .benifits ul{
   text-align: center;
