@@ -784,22 +784,21 @@ background-size: contain;
 .program .program-brand {
   height: 150px;
   width: 150px;
-  position: absolute;
   z-index: 1;
-  top: 180px;
   left: 50px;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  margin-top: -80px;
+  margin-bottom: 30px;
 }
 .program .program-brand img {
   width: 100%;
 }
 .program .program-cell {
-  background: rgb(247, 242, 242);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
 }
 .program .program-desc {
   height: auto;
   padding-left: 50px;
-  padding-top: 100px;
   padding-bottom: 30px;
 }
 .program .program-desc .program-name i,
@@ -807,7 +806,7 @@ background-size: contain;
 .semester i,
 .admission-end i,
 .know-more i {
-  color: rgb(255, 82, 82);
+  color: rgba(255,41,41,1);
   width: 30px;
 }
 .program .program-desc .program-name span {
@@ -830,7 +829,7 @@ background-size: contain;
   padding-bottom: 40px;
 }
 .program .program-desc .apply-btn .btn {
-  background: rgb(255, 82, 82);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
   border-radius: 20px;
   font-size: 14px;
   color: white;
@@ -866,16 +865,12 @@ background-size: contain;
   height: 25vh;
 }
 .program .program-brand {
-  height: 120px;
-  width: 120px;
-  z-index: 1;
-  top: 160px;
-  left: 30px;
+  margin-top: -110px;
 }
 .program .program-desc {
   padding-left: 30px;
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .program .program-desc .program-name span {
   font-size: 15px;
@@ -894,20 +889,7 @@ background-size: contain;
   font-size: 12px;
 }
 }
-@media (max-width: 468px){
-  .program .program-brand {
-  height: 100px;
-  width: 100px;
-  z-index: 1;
-  top: 150px;
-  left: 30px;
-}
-.program .program-desc {
-  padding-left: 30px;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-}
+
 /* ====================program overview=================== */
 .program-overview {
   padding-bottom: 40px;
@@ -915,13 +897,15 @@ background-size: contain;
 }
 .program-overview h2 {
   font-family: "Josefin Sans", sans-serif;
-  background: rgb(247, 242, 242);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
   margin-left: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding-left: 20px;
   width: 30%;
+  font-size: 25px;
   box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
 }
 .program-overview h4 {
@@ -950,7 +934,7 @@ background-size: contain;
   display: none;
 }
 .program-overview .read-more-btn {
-  background: rgb(250, 82, 82);
+ background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
   border-radius: 20px;
   color: white;
   font-family: "Varela Round", sans-serif;
@@ -981,27 +965,25 @@ background-size: contain;
   font-size: 12px;
 }
 .program-overview .read-more-btn {
-  background: rgb(250, 82, 82);
-  border-radius: 20px;
-  color: white;
-  font-family: "Varela Round", sans-serif;
   font-size: 8px;
 }
 }
 
 /* ================career impact================== */
 .career-impact {
-  background: rgb(72, 127, 228);
+  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
 }
 .career-impact .c-impact-header h2 {
   font-family: "Josefin Sans", sans-serif;
   background: white;
   margin-left: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding-left: 20px;
   width: 30%;
+  font-size: 25px;
   box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
 }
 
@@ -1025,11 +1007,27 @@ background-size: contain;
   background: #000;
   font-size: 20px;
   color: white;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+.career-impact .impacts .impact-card .icon-bg-1 i{
+  background-image: linear-gradient( 292.9deg,  rgba(254,105,241,1) 28.8%, rgba(182,44,248,1) 70.4% );
+}
+.career-impact .impacts .impact-card .icon-bg-2 i{
+  background-image: radial-gradient( circle farthest-corner at -1% 57.5%,  rgba(19,170,82,1) 0%, rgba(0,102,43,1) 90% );
+}
+.career-impact .impacts .impact-card .icon-bg-3 i{
+  background-image: linear-gradient( 109.7deg,  rgba(202,50,50,1) 5.7%, rgba(252,195,12,1) 92.4% );
+}
+.career-impact .impacts .impact-card .icon-bg-4 i{
+  background-image: linear-gradient( 78.1deg,  rgba(177,14,236,1) 5.5%, rgba(255,19,15,1) 92.8% );
 }
 .career-impact .impacts .impact-card .impact-title p {
   padding-top: 10px;
   font-size: 20px;
   font-weight: bold;
+}
+.career-impact .impacts .impact-card .impact-body{
+  text-align: center;
 }
 .career-impact .impact-footer {
   height: 250px;
@@ -1056,10 +1054,6 @@ background-size: contain;
 .career-impact .impacts .impact-card .impact-header i {
   padding: 15px;
   font-size: 18px;
-  background-color: #ffffff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='8' height='8' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='4' cy='4' r='4'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
 }
 .career-impact .impacts .impact-card .impact-title p {
   padding-top: 10px;
@@ -1076,7 +1070,7 @@ background-size: cover;
 /* =====================syllabus================== */
 .syllabus {
   padding-bottom: 50px;
-  background: rgb(142, 231, 70);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
 }
 .syllabus .syllabus-header .syllabus-title {
   float: left;
