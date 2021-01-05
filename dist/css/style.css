@@ -63,7 +63,7 @@ a:active {
 .navbar .navbar-toggler {
   border: none;
 }
-.navbar .nav-item .user-profile{
+.navbar .nav-item .user-profile {
   height: 40px;
   width: 40px;
 }
@@ -234,7 +234,7 @@ a:active {
 /* =================courses section================== */
 .courses {
   padding: 40px;
-  background: #e6e6e6;
+  background: linear-gradient(145deg, #f3f3f3, #cccccc);
 }
 .courses .course,
 .course-slog {
@@ -246,9 +246,8 @@ a:active {
   border: none;
   margin-top: 30px;
   margin-bottom: 20px;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.529);
+
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
   background: transparent;
 }
 .courses .course-banner img {
@@ -303,7 +302,8 @@ a:active {
   float: right;
   padding-right: 20px;
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .courses .course-card .course-desc .course-footer a:hover {
   color: rgb(237, 51, 51);
@@ -361,7 +361,6 @@ a:active {
 
 .career-counsle .counsle-form {
   text-align: center;
-  
 }
 .career-counsle .counsle-form h2 {
   color: rgb(237, 55, 55);
@@ -429,7 +428,6 @@ a:active {
   position: relative;
   width: 100%;
   border-radius: 20px;
-  
 }
 .placement .slider::before,
 .slider::after {
@@ -772,21 +770,123 @@ p {
 /* =============programs.html styling==================== */
 .program {
   margin-top: 55px;
-   background: #f1eef2;
+  background: #f1eef2;
 }
 .program .program-header {
   height: 30vh;
   padding: 0;
   filter: blur(2px);
-  clip-path: polygon(100% 0%, 0% 0% , 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
+  clip-path: polygon(
+    100% 0%,
+    0% 0%,
+    0% 65%,
+    1% 64.95%,
+    2% 64.8%,
+    3% 64.6%,
+    4% 64.3%,
+    5% 63.9%,
+    6% 63.45%,
+    7% 62.9%,
+    8% 62.25%,
+    9% 61.55%,
+    10% 60.8%,
+    11% 59.95%,
+    12% 59.05%,
+    13% 58.1%,
+    14% 57.1%,
+    15% 56.05%,
+    16% 55%,
+    17% 53.9%,
+    18% 52.8%,
+    19% 51.65%,
+    20% 50.5%,
+    21% 49.35%,
+    22% 48.2%,
+    23% 47.05%,
+    24% 45.9%,
+    25% 44.8%,
+    26% 43.75%,
+    27% 42.75%,
+    28% 41.75%,
+    29% 40.8%,
+    30% 39.9%,
+    31% 39.1%,
+    32% 38.35%,
+    33% 37.65%,
+    34% 37.05%,
+    35% 36.5%,
+    36% 36.05%,
+    37% 35.65%,
+    38% 35.35%,
+    39% 35.15%,
+    40% 35.05%,
+    41% 35%,
+    42% 35.05%,
+    43% 35.2%,
+    44% 35.45%,
+    45% 35.75%,
+    46% 36.15%,
+    47% 36.65%,
+    48% 37.2%,
+    49% 37.85%,
+    50% 38.55%,
+    51% 39.35%,
+    52% 40.2%,
+    53% 41.1%,
+    54% 42.05%,
+    55% 43.05%,
+    56% 44.1%,
+    57% 45.15%,
+    58% 46.3%,
+    59% 47.4%,
+    60% 48.55%,
+    61% 49.7%,
+    62% 50.85%,
+    63% 52%,
+    64% 53.15%,
+    65% 54.25%,
+    66% 55.35%,
+    67% 56.4%,
+    68% 57.45%,
+    69% 58.4%,
+    70% 59.35%,
+    71% 60.2%,
+    72% 61.05%,
+    73% 61.8%,
+    74% 62.45%,
+    75% 63.05%,
+    76% 63.6%,
+    77% 64.05%,
+    78% 64.4%,
+    79% 64.7%,
+    80% 64.85%,
+    81% 65%,
+    82% 65%,
+    83% 64.9%,
+    84% 64.75%,
+    85% 64.5%,
+    86% 64.2%,
+    87% 63.75%,
+    88% 63.25%,
+    89% 62.7%,
+    90% 62.05%,
+    91% 61.3%,
+    92% 60.5%,
+    93% 59.65%,
+    94% 58.75%,
+    95% 57.8%,
+    96% 56.8%,
+    97% 55.75%,
+    98% 54.65%,
+    99% 53.55%,
+    100% 52.4%
+  );
 }
-.program-header-bg{
+.program-header-bg {
   height: 30vh;
   background-color: #330055;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-size: contain;
-
-
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
 }
 .program .program-brand {
   height: 150px;
@@ -803,7 +903,6 @@ background-size: contain;
 
 .program .program-cell {
   background: #f1eef2;
-
 }
 .program .program-desc {
   height: auto;
@@ -815,7 +914,7 @@ background-size: contain;
 .semester i,
 .admission-end i,
 .know-more i {
-  color: rgba(255,41,41,1);
+  color: rgba(255, 41, 41, 1);
   width: 30px;
 }
 .program .program-desc .program-name span {
@@ -829,7 +928,7 @@ background-size: contain;
   font-family: "Varela Round", sans-serif;
   font-size: 15px;
 }
-.program-desc .know-more a{
+.program-desc .know-more a {
   font-weight: bold;
 }
 .program .program-desc .apply-btn {
@@ -838,19 +937,23 @@ background-size: contain;
   padding-bottom: 40px;
 }
 .program .program-desc .apply-btn .btn {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 7, 7, 1) 0%,
+    rgba(255, 41, 41, 1) 100.7%
+  );
   border-radius: 20px;
   font-size: 14px;
   color: white;
   font-weight: 500;
   font-family: "Varela Round", sans-serif;
-  box-shadow: 
-    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
-    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
 }
-.program .program-desc .apply-btn .btn:hover, .program .program-desc .apply-btn .btn:active{
-  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
-  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+.program .program-desc .apply-btn .btn:hover,
+.program .program-desc .apply-btn .btn:active {
+  box-shadow: inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+    inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
 }
 .program .program-desc .apply-btn i {
   margin-left: 30px;
@@ -875,37 +978,37 @@ background-size: contain;
 }
 @media (max-width: 768px) {
   .program .program-header {
-  height: 25vh;
-}
-.program-header-bg{
-  height: 25vh;
-}
-.program .program-brand {
-  margin-top: -140px;
-  height: 100px;
-  width: 100px;
-}
-.program .program-desc {
-  padding-left: 30px;
-  padding-top: 80px;
-  padding-bottom: 20px;
-}
-.program .program-desc .program-name span {
-  font-size: 15px;
-}
-.program .program-desc .year span,
-.semester span,
-.admission-end span,
-.know-more span {
-  font-size: 12px;
-}
-.program-desc .know-more a{
-  font-weight: bold;
-  font-size: 12px;
-}
-.program .program-desc .apply-btn .btn {
-  font-size: 12px;
-}
+    height: 25vh;
+  }
+  .program-header-bg {
+    height: 25vh;
+  }
+  .program .program-brand {
+    margin-top: -140px;
+    height: 100px;
+    width: 100px;
+  }
+  .program .program-desc {
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .program .program-desc .program-name span {
+    font-size: 15px;
+  }
+  .program .program-desc .year span,
+  .semester span,
+  .admission-end span,
+  .know-more span {
+    font-size: 12px;
+  }
+  .program-desc .know-more a {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .program .program-desc .apply-btn .btn {
+    font-size: 12px;
+  }
 }
 
 /* ====================program overview=================== */
@@ -937,7 +1040,6 @@ background-size: contain;
 .program-for,
 .eligibility {
   padding: 30px 10px 30px 50px;
-  
 }
 .program-overview .key-features p,
 .opportunities p,
@@ -953,46 +1055,48 @@ background-size: contain;
   display: none;
 }
 .program-overview .read-more-btn {
- background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,7,7,1) 0%, rgba(255,41,41,1) 100.7% );
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 7, 7, 1) 0%,
+    rgba(255, 41, 41, 1) 100.7%
+  );
   border-radius: 20px;
   color: white;
   font-family: "Varela Round", sans-serif;
   font-size: 10px;
-  box-shadow: 
-    8px 8px 9px 0 rgba(255, 255, 255, 0.3) inset,
-    -6px -6px 8px 0 rgba(0, 0, 0, .25) inset;
-
+  box-shadow: 8px 8px 9px 0 rgba(255, 255, 255, 0.3) inset,
+    -6px -6px 8px 0 rgba(0, 0, 0, 0.25) inset;
 }
-.program-overview .read-more-btn:hover{
-  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
-  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+.program-overview .read-more-btn:hover {
+  box-shadow: inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+    inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
 }
 @media (max-width: 768px) {
   .program-overview h2 {
-  margin-left: 5px;
-  padding: 10px 0 10px 10px;
-  width: 200px;
-  font-size: 18px;
-}
-.program-overview h4 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
-}
-.program-overview .key-features,
-.opportunities,
-.program-for,
-.eligibility {
-  padding: 10px 10px 15px 30px;
-}
-.program-overview .key-features p,
-.opportunities p,
-.program-for p,
-.eligibility p {
-  font-size: 12px;
-}
-.program-overview .read-more-btn {
-  font-size: 8px;
-}
+    margin-left: 5px;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+    font-size: 18px;
+  }
+  .program-overview h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+  }
+  .program-overview .key-features,
+  .opportunities,
+  .program-for,
+  .eligibility {
+    padding: 10px 10px 15px 30px;
+  }
+  .program-overview .key-features p,
+  .opportunities p,
+  .program-for p,
+  .eligibility p {
+    font-size: 12px;
+  }
+  .program-overview .read-more-btn {
+    font-size: 8px;
+  }
 }
 
 /* ================career impact================== */
@@ -1024,12 +1128,11 @@ background-size: contain;
   margin-left: 10px;
   margin-right: 10px;
   height: 280px;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.85);
-    background: transparent;
-    border: 0;
-    border-radius: 20px;
+  background: transparent;
+  border: 0;
+  border-radius: 20px;
 }
 .career-impact .impacts .impact-card .impact-header,
 .impact-title {
@@ -1041,74 +1144,89 @@ background-size: contain;
   background: #000;
   font-size: 20px;
   color: white;
-  box-shadow: 
-    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
-    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
 }
-.career-impact .impacts .impact-card .icon-bg-1 i{
-  background-image: linear-gradient( 292.9deg,  rgba(254,105,241,1) 28.8%, rgba(182,44,248,1) 70.4% );
+.career-impact .impacts .impact-card .icon-bg-1 i {
+  background-image: linear-gradient(
+    292.9deg,
+    rgba(254, 105, 241, 1) 28.8%,
+    rgba(182, 44, 248, 1) 70.4%
+  );
 }
-.career-impact .impacts .impact-card .icon-bg-2 i{
-  background-image: radial-gradient( circle farthest-corner at -1% 57.5%,  rgba(19,170,82,1) 0%, rgba(0,102,43,1) 90% );
+.career-impact .impacts .impact-card .icon-bg-2 i {
+  background-image: radial-gradient(
+    circle farthest-corner at -1% 57.5%,
+    rgba(19, 170, 82, 1) 0%,
+    rgba(0, 102, 43, 1) 90%
+  );
 }
-.career-impact .impacts .impact-card .icon-bg-3 i{
-  background-image: linear-gradient( 109.7deg,  rgba(202,50,50,1) 5.7%, rgba(252,195,12,1) 92.4% );
+.career-impact .impacts .impact-card .icon-bg-3 i {
+  background-image: linear-gradient(
+    109.7deg,
+    rgba(202, 50, 50, 1) 5.7%,
+    rgba(252, 195, 12, 1) 92.4%
+  );
 }
-.career-impact .impacts .impact-card .icon-bg-4 i{
-  background-image: linear-gradient( 78.1deg,  rgba(177,14,236,1) 5.5%, rgba(255,19,15,1) 92.8% );
+.career-impact .impacts .impact-card .icon-bg-4 i {
+  background-image: linear-gradient(
+    78.1deg,
+    rgba(177, 14, 236, 1) 5.5%,
+    rgba(255, 19, 15, 1) 92.8%
+  );
 }
 .career-impact .impacts .impact-card .impact-title p {
   padding-top: 10px;
   font-size: 20px;
   font-weight: bold;
 }
-.career-impact .impacts .impact-card .impact-body p{
+.career-impact .impacts .impact-card .impact-body p {
   text-align: center;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .career-impact .c-impact-header h2 {
-  margin-left: 5px;
-  padding: 10px 0 10px 10px;
-  width: 200px;
-  font-size: 18px;
-}
-.career-impact .impacts {
-  margin-top: 30px;
-}
-.career-impact .impacts .impact-card {
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  height: 250px;
-  overflow: hidden;
-}
-.career-impact .impacts .impact-card .impact-header i {
-  padding: 15px;
-  font-size: 18px;
-}
-.career-impact .impacts .impact-card .impact-title p {
-  padding-top: 10px;
-  font-size: 15px;
-  font-weight: bold;
-}
-.career-impact .impacts .impact-card .impact-body p{
-  text-align: center;
-  font-size: 12px;
-}
-.career-impact .impact-footer {
-  height: 250px;
-  width: 100%;
-  background: #eee;
-  margin-top: -200px;
-}
+    margin-left: 5px;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+    font-size: 18px;
+  }
+  .career-impact .impacts {
+    margin-top: 30px;
+  }
+  .career-impact .impacts .impact-card {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 250px;
+    overflow: hidden;
+  }
+  .career-impact .impacts .impact-card .impact-header i {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .career-impact .impacts .impact-card .impact-title p {
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .career-impact .impacts .impact-card .impact-body p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .career-impact .impact-footer {
+    height: 250px;
+    width: 100%;
+    background: #eee;
+    margin-top: -200px;
+  }
 }
 /* =====================syllabus================== */
 .syllabus {
   padding-bottom: 50px;
-  background:  #39a6ea ;
+  background: #39a6ea;
   font-family: "Varela Round", sans-serif;
 }
-.syllabus .syllabus-header .syllabus-title h2{
+.syllabus .syllabus-header .syllabus-title h2 {
   font-family: "Josefin Sans", sans-serif;
   background: #eee;
   margin-left: 20px;
@@ -1122,7 +1240,7 @@ background-size: contain;
   font-size: 25px;
   box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
 }
-.syllabus .syllabus-header .syllabus-download .btn{
+.syllabus .syllabus-header .syllabus-download .btn {
   float: right;
   border-radius: 20px;
   margin-right: 30px;
@@ -1130,29 +1248,29 @@ background-size: contain;
   font-family: "Varela Round", sans-serif;
   font-size: 15px;
   margin-top: 15px;
-box-shadow:  7px 7px 12px #318fc9,
-             -7px -7px 12px #41bdff;
+  box-shadow: 7px 7px 12px #318fc9, -7px -7px 12px #41bdff;
 }
-.syllabus .syllabus-header .syllabus-download .btn:hover, .syllabus .syllabus-header .syllabus-download .btn:active{
-  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
-  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+.syllabus .syllabus-header .syllabus-download .btn:hover,
+.syllabus .syllabus-header .syllabus-download .btn:active {
+  box-shadow: inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+    inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
 }
-.syllabus  .syllabus-text {
+.syllabus .syllabus-text {
   color: white;
   padding: 15px 0 20px 0;
 }
-.benifits ul{
+.benifits ul {
   text-align: center;
 }
-.benifits li span{
+.benifits li span {
   display: block;
   font-weight: 400;
 }
-.quant-name{
- margin-top: 15px;
- color: white;
+.quant-name {
+  margin-top: 15px;
+  color: white;
 }
-.benifits .quant{
+.benifits .quant {
   background: transparent;
   color: white;
   font-size: 20px;
@@ -1162,9 +1280,8 @@ box-shadow:  7px 7px 12px #318fc9,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 
-    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
-    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
 }
 .sem-box {
   margin: 10px 0 15px 0;
@@ -1202,48 +1319,48 @@ box-shadow:  7px 7px 12px #318fc9,
   padding: 15px 0 15px 20px;
   border-top: 1px solid #e6e8ea;
 }
-.subject-list li i{
+.subject-list li i {
   color: #333;
   padding-right: 10px;
 }
-.subject-list .practical i{
+.subject-list .practical i {
   color: rgb(76, 76, 233);
 }
-.subject-list .sessional i{
+.subject-list .sessional i {
   color: rgb(233, 80, 80);
 }
-@media (max-width: 768px){
-  .syllabus .syllabus-header .syllabus-title h2{
-  margin-left: 5px;
-  padding: 10px 0 10px 10px;
-  width: 200px;
-  font-size: 18px;
-}
-.syllabus .syllabus-header .syllabus-download .btn{
-  font-size: 12px;
-  margin-right: 0;
-}
-.syllabus  .syllabus-text {
-  padding: 15px 0 5px 5px;
-}
-.benifits ul{
-  font-size: 15px;
-}
-.sem-box {
-  margin: 10px 0 15px 5px;
-}
-.sem-info {
-  font-size: 14px;
-}
-.num-subject span.leftp {
-  padding-right: 30px;
-}
-.num-subject span {
-  font-size: 12px;
-}
-.subject-list {
-  font-size: 13px;
-}
+@media (max-width: 768px) {
+  .syllabus .syllabus-header .syllabus-title h2 {
+    margin-left: 5px;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+    font-size: 18px;
+  }
+  .syllabus .syllabus-header .syllabus-download .btn {
+    font-size: 12px;
+    margin-right: 0;
+  }
+  .syllabus .syllabus-text {
+    padding: 15px 0 5px 5px;
+  }
+  .benifits ul {
+    font-size: 15px;
+  }
+  .sem-box {
+    margin: 10px 0 15px 5px;
+  }
+  .sem-info {
+    font-size: 14px;
+  }
+  .num-subject span.leftp {
+    padding-right: 30px;
+  }
+  .num-subject span {
+    font-size: 12px;
+  }
+  .subject-list {
+    font-size: 13px;
+  }
 }
 
 /* =============admission process============== */
@@ -1254,7 +1371,7 @@ box-shadow:  7px 7px 12px #318fc9,
 }
 .admission-process .admission-header h2 {
   font-family: "Josefin Sans", sans-serif;
-  background:  #39a6ea ;
+  background: #39a6ea;
   margin-left: 20px;
   padding-bottom: 15px;
   border-bottom-left-radius: 20px;
@@ -1364,7 +1481,7 @@ box-shadow:  7px 7px 12px #318fc9,
   background-color: #045de9;
   background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
-.fee-structure .fee-header .fee-title h2{
+.fee-structure .fee-header .fee-title h2 {
   font-family: "Josefin Sans", sans-serif;
   background: #eee;
   margin-left: 20px;
@@ -1378,7 +1495,7 @@ box-shadow:  7px 7px 12px #318fc9,
   font-size: 25px;
   box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.75);
 }
-.fee-structure .fee-header .brochure-download .btn{
+.fee-structure .fee-header .brochure-download .btn {
   float: right;
   margin-right: 30px;
   border-radius: 20px;
@@ -1387,146 +1504,148 @@ box-shadow:  7px 7px 12px #318fc9,
   font-family: "Varela Round", sans-serif;
   font-size: 15px;
   margin-top: 15px;
-box-shadow:  7px 7px 12px #318fc9,
-             -7px -7px 12px #41bdff;
+  box-shadow: 7px 7px 12px #318fc9, -7px -7px 12px #41bdff;
 }
-.fee-structure .fee-header .brochure-download .btn:hover{
-  box-shadow:inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
-  inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+.fee-structure .fee-header .brochure-download .btn:hover {
+  box-shadow: inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+    inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
 }
-.fee-structure .fee-slog{
+.fee-structure .fee-slog {
   color: white;
   font-family: "Varela Round", sans-serif;
   padding-top: 30px;
   margin-left: 30px;
 }
-.fee-structure .fee-slog .fee-slog-left h5,h6{
+.fee-structure .fee-slog .fee-slog-left h5,
+h6 {
   font-size: 20px;
 }
-.fee-structure .fee-slog .fee-slog-left p{
+.fee-structure .fee-slog .fee-slog-left p {
   font-size: 15px;
 }
-.fee-structure .fee-slog .fee-slog-left i{
+.fee-structure .fee-slog .fee-slog-left i {
   padding-right: 10px;
 }
-.fee-structure .fee-slog .fee-slog-left h6{
+.fee-structure .fee-slog .fee-slog-left h6 {
   padding-left: 10px;
 }
-.fee-structure .fee-slog .fee-slog-right p{
+.fee-structure .fee-slog .fee-slog-right p {
   font-size: 15px;
   padding-left: 10px;
 }
-.fee-structure .fee-details{
+.fee-structure .fee-details {
   padding: 10px 0 40px 20px;
   font-family: "Varela Round", sans-serif;
   color: white;
   border-radius: 20px;
   margin: 20px 20px 30px 30px;
-box-shadow:  7px 7px 12px #318fc9,
-             -7px -7px 12px #41bdff;;
+  box-shadow: 7px 7px 12px #318fc9, -7px -7px 12px #41bdff;
 }
-.fee-structure .fee-details h6, h5{
+.fee-structure .fee-details h6,
+h5 {
   font-size: 20px;
   margin-top: 30px;
   margin-left: 10px;
 }
-.fee-structure .fee-details .fee-benifits p{
+.fee-structure .fee-details .fee-benifits p {
   font-size: 15px;
   margin-top: 15px;
 }
-.fee-structure .fee-details  i{
+.fee-structure .fee-details i {
   font-size: 15px;
   padding-right: 10px;
 }
-@media (max-width: 768px){
-.fee-structure .fee-header .fee-title h2{
-  margin-left: 5px;
-  padding: 10px 0 10px 10px;
-  width: 200px;
-  font-size: 18px;
-}
-.fee-structure .fee-header .brochure-download .btn{
-  font-size: 12px;
-  margin-right: 0;
-}
-.fee-structure .fee-slog{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-.fee-structure .fee-slog .fee-slog-left h5,h6{
-  font-size: 15px;
-}
-.fee-structure .fee-slog .fee-slog-left p{
-  font-size: 12px;
-}
-.fee-structure .fee-slog .fee-slog-left i{
-  font-size: 12px;
-}
-.fee-structure .fee-slog .fee-slog-left h6{
-  padding-left: 10px;
-}
-.fee-structure .fee-slog .fee-slog-right p{
-  font-size: 12px;
-  padding-left: 10px;
-}
-.fee-structure .fee-details{
-  margin: 0;
-  text-align: start;
-}
-.fee-structure .fee-details h6, h5{
-  font-size: 15px;
-  margin-top: 10px;
-  margin-left: 10px;
-  font-weight: 500;
-}
-.fee-structure .fee-details .fee-benifits p{
-  font-size: 12px;
-  margin-top: 10px;
-}
-.fee-structure .fee-details  i{
-  font-size: 12px;
-  padding-right: 8px;
-}
+@media (max-width: 768px) {
+  .fee-structure .fee-header .fee-title h2 {
+    margin-left: 5px;
+    padding: 10px 0 10px 10px;
+    width: 200px;
+    font-size: 18px;
+  }
+  .fee-structure .fee-header .brochure-download .btn {
+    font-size: 12px;
+    margin-right: 0;
+  }
+  .fee-structure .fee-slog {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .fee-structure .fee-slog .fee-slog-left h5,
+  h6 {
+    font-size: 15px;
+  }
+  .fee-structure .fee-slog .fee-slog-left p {
+    font-size: 12px;
+  }
+  .fee-structure .fee-slog .fee-slog-left i {
+    font-size: 12px;
+  }
+  .fee-structure .fee-slog .fee-slog-left h6 {
+    padding-left: 10px;
+  }
+  .fee-structure .fee-slog .fee-slog-right p {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .fee-structure .fee-details {
+    margin: 0;
+    text-align: start;
+  }
+  .fee-structure .fee-details h6,
+  h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .fee-structure .fee-details .fee-benifits p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .fee-structure .fee-details i {
+    font-size: 12px;
+    padding-right: 8px;
+  }
 }
 /* ==================phone-view ======================= */
-.phone-view-bottom{
+.phone-view-bottom {
   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white;
-   text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
-.phone-view-bottom .chat-bot{
+.phone-view-bottom .chat-bot {
   float: right;
   margin-right: 20px;
   margin-bottom: 10px;
 }
-.phone-view-bottom .chat-bot img{
+.phone-view-bottom .chat-bot img {
   width: 50px;
   animation: color_animation 15s linear infinite;
 }
-@keyframes color_animation{
-	0%{
-		filter: hue-rotate(0deg);
-	}
-	50%{
-		filter: hue-rotate(360deg);
-	}
-	100%{
-		filter: hue-rotate(0deg);
-	}
+@keyframes color_animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
 }
-@media (max-width: 768px){
-  .phone-view-bottom .chat-bot{
-  float: right;
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-.phone-view-bottom .chat-bot img{
-  width: 40px;
-}
+@media (max-width: 768px) {
+  .phone-view-bottom .chat-bot {
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .phone-view-bottom .chat-bot img {
+    width: 40px;
+  }
 }
 /* =======login-styling============ */
 .login-box .modal-content {
