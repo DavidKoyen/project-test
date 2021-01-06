@@ -684,7 +684,7 @@ p {
 }
 .contacts .contact-us .con-number {
   background-color: rgb(61, 59, 59);
-  margin: 15px 150px 0 150px;
+      margin: 15px 40px 0 40px;
   border-radius: 20px;
   color: white;
 }
@@ -703,7 +703,7 @@ p {
 }
 .contacts .contact-us .con-email {
   background-color: rgb(61, 59, 59);
-  margin: 15px 150px 0 150px;
+      margin: 15px 40px 0 40px;
   border-radius: 20px;
   color: white;
 }
@@ -805,18 +805,20 @@ p {
 }
 
 .footer input {
-  height: 40px;
-  width: 185px;
-  padding: 5px;
-  border: none;
   background-color: #cccccc;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
+  border: 0;
 }
 
 .footer .btn {
-  padding: 5px 10px 5px 10px;
-  margin: -3px 0 0 5px;
-   border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgb(8, 126, 8);
+  color: white;
+  outline: none;
+  border: 0;
 }
 
 @media (max-width: 768px) {
@@ -1688,6 +1690,7 @@ h5 {
   width: 100%;
   color: white;
   text-align: center;
+  z-index: 2;
 }
 
 .bot .chat-bot {
