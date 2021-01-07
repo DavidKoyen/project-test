@@ -1539,8 +1539,11 @@ p {
   .admission-process .admission-header p{
     font-size: 15px;
     padding-left: 20px;
-  font-weight: 600;
+    font-weight: 600;
   }
+  .process-slider {
+  margin: 0;
+}
   .process-slides::-webkit-scrollbar{
     display: none;
   }
@@ -1549,10 +1552,14 @@ p {
 .step-3,
 .step-4,
 .step-5{
-  width: 370px;
-  margin: 10px 25px 25px 25px;
+  width: 295px;
+  margin: 10px 25px 25px 20px;
+}
+.process-slides .procedure .process-header .step-heading{
+  padding: 10px 5px 5px 10px;
 }
 .process-slides .procedure .process-body {
+  padding: 10px 5px 5px 10px;
   font-weight: 500;
   font-size: 12px;
 }
