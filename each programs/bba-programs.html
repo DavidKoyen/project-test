@@ -2,1025 +2,952 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../dist/css/style.css">
-    <link rel="stylesheet" href="../dist/fontawesome-5.14.0-web/css/all.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../dist/css/style.css" />
+    <link rel="stylesheet" href="../dist/fontawesome-5.14.0-web/css/all.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../dist/icons/ecmt_logo.png">
     <!-- JS, Popper.js, and jQuery -->
     <script type="text/javascript" src="../dist/js/jquery.js"></script>
+    <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../dist/js/search.js"></script>
-    <title>BBA-Syllabus</title>
+    <title>BBA Program</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top">
-        <a class="navbar-brand" href="#"><img src="../dist/icons/logo2.png" alt="" height="30px"></a>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-expand-lg bg-light fixed-top">
+        <a class="navbar-brand" href="../index.html"><img src="../dist/icons/ecmt_logo.png" alt="" height="40px" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle"
             aria-controls="navbar-toggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse " id="navbar-toggle">
+        <div class="collapse navbar-collapse" id="navbar-toggle">
             <ul class="navbar-nav ml-auto pr-5">
-                <li class="nav-item active ">
-                    <a class="nav-link" href="../index.html"><i class="fas fa-home"></i>&nbsp; Home <span
-                            class="sr-only">(current)</span></a></li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                            class="fas fa-swatchbook"></i>&nbsp;
-                        Courses
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#"><i class="fas fa-laptop-code"></i>&nbsp;BCA</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-business-time"></i>&nbsp;BBA</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-hotel"></i>&nbsp;BHM</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-swatchbook"></i>&nbsp;M.Sc</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-hand-holding-medical"></i>&nbsp;B.Pharm</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-pills"></i>&nbsp;D.Pharm</a>
-                        <a class="dropdown-item" href="#"><i class="fas fa-eye"></i>&nbsp;B.Optometry</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#"><i class="fas fa-dollar-sign"></i>&nbsp;Courses fee</a>
-                    </div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i>&nbsp; Home
+                        <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Placments</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                            class="fas fa-sign-in-alt"></i> &nbsp;
-                        Join US
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;About Program</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-headset"></i>&nbsp; Contact US</a>
+                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Syllabus</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Admission Process</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-award"></i>&nbsp;Fees</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="login" data-toggle="modal" data-target="#exampleModalCenter"><i
+                            class="fas fa-sign-in-alt"></i>&nbsp; Login
+                    </a>
                 </li>
             </ul>
-
         </div>
     </nav>
 
-
-    <div class="programs">
+    <div class="program">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 program-desc text-center">
-                    <p><i class="fas fa-laptop"></i></p>
-                    <h4>Bachelor of Business Administration (BBA)</h4>
-                    <p>Find the subject, grab a cup of coffee and begin the journey of learning.</p>
-
+                <div class="program-header col-lg-12 col-md-12">
+                    <div class="program-header-bg-2"></div>
                 </div>
+            </div>
+            <div class="row program-cell">
+                <div class="program-desc col-md-6">
+                    <div class="program-brand">
+                        <img src="../dist/icons/bca/bca-logo.png" alt="" />
+                    </div>
+                    <p class="program-name">
+                        <i class="fas fa-graduation-cap"></i><span>Bacholre of computer Application</span>
+                    </p>
+                    <p class="year">
+                        <i class="fas fa-clock"></i><span>3 Years</span>
+                    </p>
+                    <p class="semester">
+                        <i class="fas fa-hourglass"></i><span>Semesters : 6</span>
+                    </p>
+                    <p class="know-more">
+                        <i class="fas fa-swatchbook"></i><span>Syllabus :</span><a href="#">Know more</a>
+                    </p>
+                    <p class="know-more">
+                        <i class="fas fa-file-signature"></i><span>Admission Process :</span><a href="#">Know more</a>
+                    </p>
+                    <p class="know-more">
+                        <i class="fas fa-hand-holding-usd"></i><span>Fee structure :</span><a href="#">Know more</a>
+                    </p>
+                    <div class="apply-btn">
+                        <button class="btn">Start Application</button>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="program-banner">
+                    <img src="#" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="program-overview">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h2>Program Overview</h2>
+                </div>
+                <div class="key-features col-md-6">
+                    <h4>Top Subjects You Will Learn</h4>
+                    <p>
+                        Business Growth Strategies, Leadership, Strategic Thinking &
+                        Planning Abilities, Integrated Business Strategy<span id="dots1">.....</span><span
+                            id="more-feature">
+                            Formulation, Design Thinking, Change Management, Financing
+                            Strategies, International Business, Developing High Performing
+                            Organisations</span>
+                    </p>
+                    <button onclick="feature()" id="key-features" class="read-more-btn btn">
+                        Read more
+                    </button>
+                </div>
+                <div class="opportunities col-md-6">
+                    <h4>Job Opportunities</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                        imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+                        scel<span id="dots2">.....</span><span id="more-opportunities">erisque enim ligula venenatis
+                            dolor. Maecenas
+                            nisl est,
+                            ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                            vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                            ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+                            imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+                            venenatis. Integer fringilla congue eros non fermentum. Sed
+                            dapibus pulvinar nibh tempor porta.</span>
+                    </p>
+                    <button onclick="opportunities()" id="opportunities" class="read-more-btn btn">
+                        Read more
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="program-for col-md-6">
+                    <h4>Who Is This Program For?</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                        imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+                        scel<span id="dots3">.....</span><span id="more-program">erisque enim ligula venenatis dolor.
+                            Maecenas nisl
+                            est,
+                            ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                            vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                            ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+                            imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+                            venenatis. Integer fringilla congue eros non fermentum. Sed
+                            dapibus pulvinar nibh tempor porta.</span>
+                    </p>
+                    <button onclick="programFor()" id="program-for" class="read-more-btn btn">
+                        Read more
+                    </button>
+                </div>
+                <div class="eligibility col-md-6">
+                    <h4>Minimum Eligibility</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                        imperdiet, nulla et dictum interdum, nisi lorem egestas vitae
+                        scel<span id="dots4">.....</span><span id="more-eligibility">erisque enim ligula venenatis
+                            dolor. Maecenas
+                            nisl est,
+                            ultrices nec congue eget, auctor vitae massa. Fusce luctus
+                            vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+                            ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+                            imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+                            venenatis. Integer fringilla congue eros non fermentum. Sed
+                            dapibus pulvinar nibh tempor porta.</span>
+                    </p>
+                    <button onclick="eligibility()" id="eligibility" class="read-more-btn btn">
+                        Read more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="container search-bar">
-                    <div class="col-md-12 col-md-offset-3">
-                        <form role="form" class="search-form">
-                            <div class="form-group">
-                                <div class="input-group mb-2">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fas fa-swatchbook"></i></div>
-                                    </div>
-                                    <input type="search" value="" class="form-control" id="myinput" onkeyup="searchFunction()"
-                                        placeholder="Type the subject name" aria-label="Search">
-                                    <div class="input-group-prepend">
-                                        <button class="btn btn-outline-success" type="submit"><i
-                                                class="fas fa-search"></i></button>
-                                    </div>
-                                </div>
+    <!-- ========================career impact=============== -->
+    <div class="career-impact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="c-impact-header col-lg-12 col-md-12">
+                    <h2>career Impact</h2>
+                </div>
+            </div>
+            <div class="impacts">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="card impact-card">
+                            <div class="impact-header icon-bg-1">
+                                <i class="fas fa-swatchbook"></i>
                             </div>
-                        </form>
+                            <div class="impact-title">
+                                <p>Career Counselling</p>
+                            </div>
+                            <div class="impact-body">
+                                <p>
+                                    Get personalised career pathing from tutors to chart out the
+                                    best opportunities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card impact-card">
+                            <div class="impact-header icon-bg-2">
+                                <i class="fas fa-swatchbook"></i>
+                            </div>
+                            <div class="impact-title">
+                                <p>Resume Feedback</p>
+                            </div>
+                            <div class="impact-body">
+                                <p>
+                                    Obtain specific, personalised inputs on your resume
+                                    structure and content from mentors.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card impact-card">
+                            <div class="impact-header icon-bg-3">
+                                <i class="fas fa-swatchbook"></i>
+                            </div>
+                            <div class="impact-title">
+                                <p>Interview Preparation</p>
+                            </div>
+                            <div class="impact-body">
+                                <p>
+                                    Receive one-on-one mock interviews conducted by faculty and
+                                    detailed feedback after an interview
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="card impact-card">
+                            <div class="impact-header icon-bg-4">
+                                <i class="fas fa-swatchbook"></i>
+                            </div>
+                            <div class="impact-title">
+                                <p>Job Placement</p>
+                            </div>
+                            <div class="impact-body">
+                                <p>
+                                    Get an opportunity to interview for Tech. companies
+                                    partnered with ECMT
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row each-subject" id="subjects">
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>English</p>
+        </div>
+    </div>
+    <!-- =======================syllabus=================== -->
+    <section class="syllabus">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="syllabus-header">
+                        <div class="syllabus-title">
+                            <h2>Syllabus</h2>
+                        </div>
+                        <div class="syllabus-download">
+                            <button class="btn"><i class="fas fa-download"></i> Get Syllabus</button>
+                        </div>
                     </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="benifits">
+                        <div class="col-lg-12 col-md-12 syllabus-text">
+                            <p>Best-in-class content by leading faculty and industry leaders in the form of videos, case
+                                studies and
+                                projects</p>
+                        </div>
+                        <div class="benifit-row">
+                            <div class="d-flex">
+                                <div class="p-2 flex-fill">
+                                    <ul>
+                                        <li class="fleft">
+                                            <span class="quant">4</span>
+                                            <span class="quant-name">Sessional Training</span>
+                                        </li>
+
+                                    </ul>
                                 </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/c-progamming.png" alt="">
+                                <div class="p-2 flex-fill">
+                                    <ul>
+                                        <li class="fright">
+                                            <span class="quant">2</span>
+                                            <span class="quant-name">Projects</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;English</span>
-                                </h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
-                                        Intermediate</span></h6>
-                                <p>You don't need to have prior knowledge on programming, in this course you will learn
-                                    it from basic.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Mr.-Surajit-Goon.jpg" alt="DB"
-                                        style="border-radius: 50%;">
+                            <div class="d-flex">
+                                <div class="p-2 flex-fill">
+                                    <ul>
+                                        <li class="fright">
+                                            <span class="quant">4</span>
+                                            <span class="quant-name">Internal-exam/Sem</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="p-2 flex-fill">
+                                    <ul>
+                                        <li class="fleft">
+                                            <span class="quant">400+</span>
+                                            <span class="quant-name">Lectures</span>
+                                        </li>
 
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Basics of Mathematics maths</p>
+                <div class="col-lg-6 col-md-6">
+                    <div class="syllabus-text">
+                        <p>Best-in-class content by leading faculty and industry leaders in the form of videos, case
+                            studies and
+                            projects</p>
                     </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-4">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/enviroment-studies.png" alt="">
+                    <div class="semester-syllabus">
+                        <!-- ===================semester-1==================== -->
+                        <div class="sem-box">
+                            <div data-toggle="collapse" id="outer-box" class="sem-info" data-target="#sem-1">SEMESTER
+                                I<i class="fas fa-angle-up"></i>
+                                <div class="subjects">
+                                    <ul>
+                                        <li class="num-subject">
+                                            <!-- =================theoru===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"
+                                                viewBox="0 0 12 13">
+                                                <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                                                    d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                                            </svg>
+                                            <span class="theory-number">4</span>
+                                            <span class="theory-sub leftp">Theory</span>
+                                            <!-- =================Practical===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                                                <path fill="none" stroke="rgb(76, 76, 233)" stroke-width="1.524"
+                                                    d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                                                </path>
+                                            </svg>
+                                            <span class="prac-num">1</span>
+                                            <span class="practical-sub leftp">Practical</span>
+                                            <!-- =================sessional===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="rgb(233, 80, 80)" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                                <path
+                                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                                <path
+                                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                            </svg>
+                                            <span class="sessional-num">1</span>
+                                            <span class="sessional-sub">Sessional</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Basics of Mathematics</span>
-                                </h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;NULL</span></h6>
-                                <p>You will learn the natural, human, social and cultural dimensions of local and wider
-                                    environments.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Mr.-Krishna-Kundu.jpg" alt="DB"
-                                        style="border-radius: 50%;">
 
+                            <ul class="collapse subject-list" id="sem-1">
+                                <!-- ======Theory subject================== -->
+                                <li><i class="far fa-clipboard"></i>(BCAN-101)-Digital Electronics</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-102)-Environment Studies</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-103)-C Programming</li>
+                                <li><i class="far fa-clipboard"></i>(BMN-101)-Basic Mathematical
+                                    Computation</li>
+                                <!-- ======Practical subject================== -->
+                                <li class="practical"><i class="fas fa-paperclip"></i>(BCAN-193)-Programming Lab
+                                    with C</li>
+                                <!-- ======Sessional subject================== -->
+                                <li class="sessional"><i class="fas fa-clipboard-list"></i>(BCAN-181)-PC Software Lab
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ===================semester-2==================== -->
+                        <div class="sem-box">
+                            <div data-toggle="collapse" id="outer-box" class="sem-info" data-target="#sem-2">SEMESTER
+                                II<i class="fas fa-angle-up"></i>
+                                <div class="subjects">
+                                    <ul>
+                                        <li class="num-subject">
+                                            <!-- =================theory===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"
+                                                viewBox="0 0 12 13">
+                                                <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                                                    d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                                            </svg>
+                                            <span class="theory-number">5</span>
+                                            <span class="theory leftp">Theory</span>
+                                            <!-- =================Practical===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                                                <path fill="none" stroke="rgb(76, 76, 233)" stroke-width="1.524"
+                                                    d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                                                </path>
+                                            </svg>
+                                            <span class="prac-num">1</span>
+                                            <span class="practical-sub leftp">Practical</span>
+                                            <!-- =================sessional===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="rgb(233, 80, 80)" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                                <path
+                                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                                <path
+                                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                            </svg>
+                                            <span class="sessional-num">1</span>
+                                            <span class="sessional-sub">Sessional</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+
+                            <ul class="collapse subject-list" id="sem-2">
+                                <!-- ======Theory subject================== -->
+                                <li><i class="far fa-clipboard"></i>(BCAN-201)-Computer Architecture</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-202)-Software Engineering</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-203)-Data Structure with C </li>
+                                <li><i class="far fa-clipboard"></i>(HUN-201)-English Language and
+                                    Communication </li>
+                                <li><i class="far fa-clipboard"></i>(BMN-201-Advanced Mathematical
+                                    Computation )</li>
+                                <!-- ======Practical subject================== -->
+                                <li class="practical"><i class="fas fa-paperclip"></i>(BCAN-293 -Data Structure Lab
+                                    using C</li>
+                                <li class="practical"><i class="fas fa-paperclip"></i>(HUN-291)-Business Presentation
+                                    and
+                                    Language Lab</li>
+                            </ul>
                         </div>
-                    </a>
+
+                        <!-- ===================semester-3==================== -->
+                        <div class="sem-box">
+                            <div data-toggle="collapse" id="outer-box" class="sem-info" data-target="#sem-3">SEMESTER
+                                III<i class="fas fa-angle-up"></i>
+                                <div class="subjects">
+                                    <ul>
+                                        <li class="num-subject">
+                                            <!-- =================theoru===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"
+                                                viewBox="0 0 12 13">
+                                                <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                                                    d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                                            </svg>
+                                            <span class="theory-number">4</span>
+                                            <span class="theory leftp">Theory</span>
+                                            <!-- =================Practical===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                                                <path fill="none" stroke="rgb(76, 76, 233)" stroke-width="1.524"
+                                                    d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                                                </path>
+                                            </svg>
+                                            <span class="prac-num">1</span>
+                                            <span class="practical-sub leftp">Practical</span>
+                                            <!-- =================sessional===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="rgb(233, 80, 80)" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                                <path
+                                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                                <path
+                                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                            </svg>
+                                            <span class="sessional-num">1</span>
+                                            <span class="sessional-sub">Sessional</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <ul class="collapse subject-list" id="sem-3">
+                                <!-- ======Theory subject================== -->
+                                <li><i class="far fa-clipboard"></i>(BCAN-101)-Digital Electronics</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-102)-Environment Studies</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-103)-C Programming</li>
+                                <li><i class="far fa-clipboard"></i>(BMN-101)-Basic Mathematical
+                                    Computation</li>
+                                <!-- ======Practical subject================== -->
+                                <li class="practical"><i class="fas fa-paperclip"></i>(BCAN-193)-Programming Lab
+                                    with C</li>
+                                <!-- ======Sessional subject================== -->
+                                <li class="sessional"><i class="fas fa-clipboard-list"></i>(BCAN-181)-PC Software Lab
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ===================semester-4==================== -->
+                        <div class="sem-box">
+                            <div data-toggle="collapse" id="outer-box" class="sem-info" data-target="#sem-4">SEMESTER
+                                IV<i class="fas fa-angle-up"></i>
+                                <div class="subjects">
+                                    <ul>
+                                        <li class="num-subject">
+                                            <!-- =================theory===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"
+                                                viewBox="0 0 12 13">
+                                                <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                                                    d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                                            </svg>
+                                            <span class="theory-number">5</span>
+                                            <span class="theory leftp">Theory</span>
+                                            <!-- =================Practical===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                                                <path fill="none" stroke="rgb(76, 76, 233)" stroke-width="1.524"
+                                                    d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                                                </path>
+                                            </svg>
+                                            <span class="prac-num">1</span>
+                                            <span class="practical-sub leftp">Practical</span>
+                                            <!-- =================sessional===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="rgb(233, 80, 80)" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                                <path
+                                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                                <path
+                                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                            </svg>
+                                            <span class="sessional-num">1</span>
+                                            <span class="sessional-sub">Sessional</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <ul class="collapse subject-list" id="sem-4">
+                                <!-- ======Theory subject================== -->
+                                <li><i class="far fa-clipboard"></i>(BCAN-101)-Digital Electronics</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-102)-Environment Studies</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-103)-C Programming</li>
+                                <li><i class="far fa-clipboard"></i>(BMN-101)-Basic Mathematical
+                                    Computation</li>
+                                <!-- ======Practical subject================== -->
+                                <li class="practical"><i class="fas fa-paperclip"></i>(BCAN-193)-Programming Lab
+                                    with C</li>
+                                <!-- ======Sessional subject================== -->
+                                <li class="sessional"><i class="fas fa-clipboard-list"></i>(BCAN-181)-PC Software Lab
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ===================semester-5==================== -->
+                        <div class="sem-box">
+                            <div data-toggle="collapse" id="outer-box" class="sem-info" data-target="#sem-5">SEMESTER
+                                V<i class="fas fa-angle-up"></i>
+                                <div class="subjects">
+                                    <ul>
+                                        <li class="num-subject">
+                                            <!-- =================theoru===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"
+                                                viewBox="0 0 12 13">
+                                                <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                                                    d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                                            </svg>
+                                            <span class="theory-number">4</span>
+                                            <span class="theory leftp">Theory</span>
+                                            <!-- =================Practical===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                                                <path fill="none" stroke="rgb(76, 76, 233)" stroke-width="1.524"
+                                                    d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                                                </path>
+                                            </svg>
+                                            <span class="prac-num">1</span>
+                                            <span class="practical-sub leftp">Practical</span>
+                                            <!-- =================sessional===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="rgb(233, 80, 80)" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                                <path
+                                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                                <path
+                                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                            </svg>
+                                            <span class="sessional-num">1</span>
+                                            <span class="sessional-sub">Sessional</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <ul class="collapse subject-list" id="sem-5">
+                                <!-- ======Theory subject================== -->
+                                <li><i class="far fa-clipboard"></i>(BCAN-101)-Digital Electronics</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-102)-Environment Studies</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-103)-C Programming</li>
+                                <li><i class="far fa-clipboard"></i>(BMN-101)-Basic Mathematical
+                                    Computation</li>
+                                <!-- ======Practical subject================== -->
+                                <li class="practical"><i class="fas fa-paperclip"></i>(BCAN-193)-Programming Lab
+                                    with C</li>
+                                <!-- ======Sessional subject================== -->
+                                <li class="sessional"><i class="fas fa-clipboard-list"></i>(BCAN-181)-PC Software Lab
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ===================semester-6==================== -->
+                        <div class="sem-box">
+                            <div data-toggle="collapse" id="outer-box" class="sem-info" data-target="#sem-6">SEMESTER
+                                VI<i class="fas fa-angle-up"></i>
+                                <div class="subjects">
+                                    <ul>
+                                        <li class="num-subject">
+                                            <!-- =================theory===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13"
+                                                viewBox="0 0 12 13">
+                                                <path fill="none" stroke="#6F7B83" stroke-width="1.524"
+                                                    d="M0 6.6h7.09M0 1h12M0 12.2h12"></path>
+                                            </svg>
+                                            <span class="theory-number">5</span>
+                                            <span class="theory leftp">Theory</span>
+                                            <!-- =================Practical===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+                                                <path fill="none" stroke="rgb(76, 76, 233)" stroke-width="1.524"
+                                                    d="M13 6.666l-5.313 5.222c-1.51 1.483-4.045 1.483-5.555 0-1.51-1.484-1.51-3.976 0-5.46l4.71-4.627a2.73 2.73 0 013.864 0c1.086 1.068 1.086 2.73 0 3.797L6.358 9.811c-.603.593-1.57.593-2.113 0-.603-.593-.603-1.543 0-2.077l3.623-3.56">
+                                                </path>
+                                            </svg>
+                                            <span class="prac-num">1</span>
+                                            <span class="practical-sub leftp">Practical</span>
+                                            <!-- =================sessional===================== -->
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                fill="rgb(233, 80, 80)" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                                <path
+                                                    d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                                <path
+                                                    d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                            </svg>
+                                            <span class="sessional-num">1</span>
+                                            <span class="sessional-sub">Sessional</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <ul class="collapse subject-list" id="sem-6">
+                                <!-- ======Theory subject================== -->
+                                <li><i class="far fa-clipboard"></i>(BCAN-101)-Digital Electronics</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-102)-Environment Studies</li>
+                                <li><i class="far fa-clipboard"></i>(BCAN-103)-C Programming</li>
+                                <li><i class="far fa-clipboard"></i>(BMN-101)-Basic Mathematical
+                                    Computation</li>
+                                <!-- ======Practical subject================== -->
+                                <li class="practical"><i class="fas fa-paperclip"></i>(BCAN-193)-Programming Lab
+                                    with C</li>
+                                <!-- ======Sessional subject================== -->
+                                <li class="sessional"><i class="fas fa-clipboard-list"></i>(BCAN-181)-PC Software Lab
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ========================admission section====================== -->
+    <div class="admission-process">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="admission-header col-lg-12 col-md-12">
+                    <h2>Admission Process</h2>
+                    <p>
+                        Please find below the detailed steps to be followed as a part of
+                        the admission process.
+                    </p>
 
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Fundamentals of Statistics</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-2">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/advance-math.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Fundamentals of Statistics</span>
-                                </h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
-                                        Intermediate</span></h6>
-                                <p>The knowledge gained during <b>HS</b> will be advanced with various numerical
-                                    problems.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Mrs.-Munmun-Mukherjee.jpg" alt="DB"
-                                        style="border-radius: 50%;">
-
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Economics micro</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-3">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+            </div>
+            <div class="process">
+                <div class="process-slider">
+                    <div class="process-slides">
+                        <div class="step-1">
+                            <div class="procedure">
+                                <div class="process-header">
+                                    <p class="card-header">
+                                        <i class="fas fa-bullhorn"></i> <span>Step-1</span>
+                                    </p>
+                                    <p class="step-heading">Complete Application :</p>
                                 </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/programming-lab.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Economics (Micro)</span>
-                                </h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
-                                        Intermediate</span></h6>
-                                <p>You will have the hands on practice of basic and intermediate level in <b>C
-                                        Programming</b>.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Mr.-Aritra-Kundu.jpg" alt="DB"
-                                        style="border-radius: 50%;">
-
+                                <div class="process-body">
+                                    <p>
+                                        bodyComplete Application Complete Application Complete
+                                        Application Complete Application
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Computer Applications</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                        <div class="step-2">
+                            <div class="procedure">
+                                <div class="process-header">
+                                    <p class="card-header">
+                                        <i class="fas fa-bullhorn"></i> <span>Step-2</span>
+                                    </p>
+                                    <p class="step-heading">
+                                        Get shortlisted and receive the offer letter :
+                                    </p>
                                 </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/pc-software.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Computer Applications</span>
-                                </h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level :</b><span>&nbsp;Basic &
-                                        Intermediate</span></h6>
-                                <p>You will learn about computer, working with MS-Office and lot's more.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Indrani-Dalui.jpg" alt="DB"
-                                        style="border-radius: 50%;">
-
+                                <div class="process-body">
+                                    <p>
+                                        bodyComplete Application Complete Application Complete
+                                        Application Complete Application
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Business Communication</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                        <div class="step-3">
+                            <div class="procedure">
+                                <div class="process-header">
+                                    <p class="card-header">
+                                        <i class="fas fa-bullhorn"></i> <span>Step-3</span>
+                                    </p>
+                                    <p class="step-heading">Complete Application :</p>
                                 </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Business Communication</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB"
-                                        style="border-radius: 50%;">
-
+                                <div class="process-body">
+                                    <p>
+                                        bodyComplete Application Complete Application Complete
+                                        Application Complete Application
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Advanced Mathematics and Statistics maths</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                        <div class="step-4">
+                            <div class="procedure">
+                                <div class="process-header">
+                                    <p class="card-header">
+                                        <i class="fas fa-bullhorn"></i> <span>Step-4</span>
+                                    </p>
+                                    <p class="step-heading">Complete Application :</p>
                                 </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Advanced Mathematics and Statistics</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
+                                <div class="process-body">
+                                    <p>
+                                        bodyComplete Application Complete Application Complete
+                                        Application Complete Application
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Organizational Behaviour</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
+                        <div class="step-5">
+                            <div class="procedure">
+                                <div class="process-header">
+                                    <p class="card-header">
+                                        <i class="fas fa-bullhorn"></i> <span>Step-5</span>
+                                    </p>
+                                    <p class="step-heading">Complete Application :</p>
                                 </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Organizational Behaviour</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
+                                <div class="process-body">
+                                    <p>
+                                        bodyComplete Application Complete Application Complete
+                                        Application Complete Application
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Economics macro</p>
                     </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Economics (Macro)</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Indian Social Structure and Values & Ethics</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Indian Social Structure and Values & Ethics</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Principles of Management/p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Principles of Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Managerial Economics</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Managerial Economics</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Business Laws</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Business Laws</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Financial Accounting</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Financial Accounting</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Environmental Sciences</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Environmental Sciences</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Production & Materials Management</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Production & Materials Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Management Information Systems</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Management Information Systems</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Cost Accounting</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Cost Accounting</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Marketing Management</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Marketing Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Human Resource Management</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Human Resource Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Financial Management</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Financial Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Sales & Distribution Management</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Sales & Distribution Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Human Resource Development</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Human Resource Development</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Entrepreneurship Development</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Entrepreneurship Development</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Research Methodology</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Research Methodology</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Management Accounting</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Management Accounting</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Advertising & Sales Promotion</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Advertising & Sales Promotion</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Industrial Relations</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Industrial Relations</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Public Service Management</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Public Service Management</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-6 col-md-3 subject">
-                    <div class="filter-tag">
-                        <p>Project and Viva</p>
-                    </div>
-                    <a href="../courses/c++/c-plus-desc.html">
-                        <div class="outer-card">
-                            <div class="outer-card-top-1">
-                                <div class="program-header">
-                                    <img src="../dist/bgs/header-bg-1.png" alt="">
-                                </div>
-                                <div class="course-icon">
-                                    <img src="../dist/icons/bca/computer-architecture.png" alt="">
-                                </div>
-                            </div>
-                            <div class="outer-body program-course-desc">
-                                <h6><i class="fas fa-book"></i><b>&nbsp; Course :</b><span>&nbsp;Project and Viva</span></h6>
-                                <h6><i class="far fa-clock"></i><b>&nbsp; Duration :</b><span>&nbsp;6 Months</span></h6>
-                                <h6><i class="fas fa-laptop-code"></i><b>&nbsp; Level
-                                        :</b><span>&nbsp;Intermediate</span></h6>
-                                <p>You must have basic knowledge on <b>Computers</b>, which will help for better
-                                    understanding.</p>
-                                <div class="outer-footer">
-                                    <img src="../dist/instructor-images/Ms.-Prianka-Kundu.jpg" alt="DB" style="border-radius: 50%;">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
 
             </div>
         </div>
     </div>
+
+    <!-- =================fee structure====================== -->
+    <section class="fee-structure">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="fee-header">
+                        <div class="fee-title">
+                            <h2>Fee Structure</h2>
+                        </div>
+                        <div class="brochure-download">
+                            <button class="btn"><i class="fas fa-download"></i> Get Brochure</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="fee-slog">
+                        <div class="fee-slog-left">
+                            <h5><i class="fas fa-rupee-sign"></i> Tution fee</h5>
+                            <h6>Rs. 45,2344</h6>
+                        </div>
+                        <div class="fee-slog-right">
+                            <p>A processing fee will be charged on the basis of payment method selected.</p>
+                            <p>Down payment of ₹5,000 has to be paid before the program begins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="fee-details">
+                        <h5><i class="fab fa-buffer"></i> What's Included in the Price</h5>
+                        <h6><i class="far fa-list-alt"></i> Features/Benefits</h6>
+                        <div class="d-flex fee-benifits">
+                            <div class="p-2 flex-fill">
+                                <p><i class="fas fa-check"></i> MBA (Global) Degree from Australia's leading Business
+                                    School</p>
+                                <p><i class="fas fa-check"></i>Industry relevant curriculum for Career Enhancement &
+                                    Growth</p>
+                                <p><i class="fas fa-check"></i>Peer-to-peer interaction via offline networking events
+                                </p>
+                            </div>
+                            <div class="p-2 flex-fill">
+                                <p><i class="fas fa-check"></i>Regular interaction with Global Faculty & Industry
+                                    Experts</p>
+                                <p><i class="fas fa-check"></i>Alumni Status from Deakin University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section begins here -->
+
+    <div id="footer" class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 contact-address">
+                    <h4 style="color: white;">Contact us</h4>
+                    <p><i class="fas fa-home"></i> Moshpukur , Barbaria, Barasat, PO: Jagannathpur, Kol-126 Kolkata West
+                        Bengal 700126 INDIA
+                    </p>
+                    <p><i class="fas fa-envelope"></i> ecmtcollege@yahoo.com</p>
+                    <p><i class="fas fa-phone"></i> 033-25420269</p>
+                    <p><i class="fas fa-phone"></i> 8420430756</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <h4 style="color: white;">About</h4>
+                    <p>EMINENT-EDUCATION, a just-founded College of ECMT & ECPT, is West Bengal’s newest not-for-profit
+                        professional institute
+                        for lifelong learning..</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <h4 style="color: white;">Stay in touch</h4>
+                    <a href="#"><i class="social fab fa-facebook"></i></a>
+                    <a href="#"><i class="social fab fa-twitter"></i></a>
+                    <a href="#"><i class="social fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="social fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="social fab fa-youtube"></i></a>
+                    <a href="#"><i class="social fab fa-github"></i></a>
+
+                    <div class="input-group mb-3">
+                        <input type="email" name="email" class="form-control" placeholder="Subscribe for updates"
+                            aria-label="Subscribe for updates" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
+
+    <!-- ===================chat bot============ -->
+    <div class="bot">
+        <div class="chat-bot">
+            <a href="#"><img src="../dist/icons/chatbot_icon.png" alt=""></a>
+        </div>
+    </div>
+    <!-- ==============Read more functions================== -->
+    <script>
+        function feature() {
+            var dots = document.getElementById("dots1");
+            var moreText = document.getElementById("more-feature");
+            var btnText = document.getElementById("key-features");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+        function opportunities() {
+            var dots = document.getElementById("dots2");
+            var moreText = document.getElementById("more-opportunities");
+            var btnText = document.getElementById("opportunities");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+        function programFor() {
+            var dots = document.getElementById("dots3");
+            var moreText = document.getElementById("more-program");
+            var btnText = document.getElementById("program-for");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+        function eligibility() {
+            var dots = document.getElementById("dots4");
+            var moreText = document.getElementById("more-eligibility");
+            var btnText = document.getElementById("eligibility");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
 </body>
 
 </html>
