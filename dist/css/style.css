@@ -51,6 +51,10 @@ a:active {
 .btn:hover {
   transition: 0.5s;
 }
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
 /* ========video styling=========== */
 #vid1 {
   width: 100%;
@@ -68,6 +72,22 @@ a:active {
 .navbar .nav-item .user-profile {
   height: 40px;
   width: 40px;
+}
+.navbar .rotate {
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.navbar .rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 /*Header CSS begins here*/
 .header {
@@ -399,11 +419,14 @@ a:active {
   border-radius: 0;
   width: 50%;
   font-size: 15px;
-  background-color: #e64949;
+  background-image: linear-gradient( 107.2deg,  rgba(150,15,15,1) 10.6%, rgba(247,0,0,1) 91.1% );
   box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
     -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   color: #fff !important;
+}
+.career-counsle .counsle-form .btn:hover{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(205,33,42,1) 0%, rgba(236,95,5,1) 90% );
 }
 
 .career-counsle .counsle-form .btn:hover {
@@ -678,7 +701,7 @@ p {
   color: rgb(62, 83, 240);
 }
 .contacts .contact-us .con-number {
-  background-color: rgb(61, 59, 59);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
   margin: 15px 40px 0 40px;
   border-radius: 20px;
   color: white;
@@ -697,7 +720,7 @@ p {
   left: 50%;
 }
 .contacts .contact-us .con-email {
-  background-color: rgb(61, 59, 59);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
   margin: 15px 40px 0 40px;
   border-radius: 20px;
   color: white;
@@ -1397,6 +1420,7 @@ background-size: contain;
   background: #fff;
   cursor: pointer;
 }
+
 .sem-info {
   padding: 5px 0 0 20px;
 }
@@ -1801,10 +1825,14 @@ h5 {
 }
 .login-box .input-grp label {
   font-size: 15px;
-  font-family: "Abel", sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-weight: bold;
 }
-
+.login-box .input-grp #err-uname, #err-pass{
+  color: red;
+  font-size: 12px;
+  font-weight: normal;
+}
 .login-box .input-group-text img {
   width: 20px;
   height: 20px;
@@ -1812,6 +1840,14 @@ h5 {
 .login-box .input-grp input {
   font-family: "Abel", sans-serif;
   border-radius: 20px;
+}
+.input-grp .remember label{
+  font-size: 12px;
+  font-weight: normal;
+}
+.input-grp .forgot a{
+  font-size: 12px;
+  font-weight: normal;
 }
 .login-box .submit-btn {
   margin-top: 10px;
@@ -1821,6 +1857,13 @@ h5 {
   border: none;
   outline: none;
   font-size: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
+  color: white;
+}
+.login-box .submit-btn .btn:hover {
+  background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
 }
 .login-box .register-form {
   padding: 10px 0 5px 0;
