@@ -51,9 +51,13 @@ a:active {
 .btn:hover {
   transition: 0.5s;
 }
-.btn:focus,.btn:active:focus,.btn.active:focus,
-.btn.focus,.btn:active.focus,.btn.active.focus {
-    outline: none;
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
 }
 /* ========video styling=========== */
 #vid1 {
@@ -74,20 +78,20 @@ a:active {
   width: 40px;
 }
 .navbar .rotate {
-    -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .navbar .rotate.down {
-    -moz-transform:rotate(90deg);
-    -webkit-transform:rotate(90deg);
-    transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 /*Header CSS begins here*/
 .header {
@@ -419,14 +423,22 @@ a:active {
   border-radius: 0;
   width: 50%;
   font-size: 15px;
-  background-image: linear-gradient( 107.2deg,  rgba(150,15,15,1) 10.6%, rgba(247,0,0,1) 91.1% );
+  background-image: linear-gradient(
+    107.2deg,
+    rgba(150, 15, 15, 1) 10.6%,
+    rgba(247, 0, 0, 1) 91.1%
+  );
   box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
     -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   color: #fff !important;
 }
-.career-counsle .counsle-form .btn:hover{
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(205,33,42,1) 0%, rgba(236,95,5,1) 90% );
+.career-counsle .counsle-form .btn:hover {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(205, 33, 42, 1) 0%,
+    rgba(236, 95, 5, 1) 90%
+  );
 }
 
 .career-counsle .counsle-form .btn:hover {
@@ -701,7 +713,11 @@ p {
   color: rgb(62, 83, 240);
 }
 .contacts .contact-us .con-number {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(7, 121, 222, 1) 0%,
+    rgba(20, 72, 140, 1) 90%
+  );
   margin: 15px 40px 0 40px;
   border-radius: 20px;
   color: white;
@@ -720,7 +736,11 @@ p {
   left: 50%;
 }
 .contacts .contact-us .con-email {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(7, 121, 222, 1) 0%,
+    rgba(20, 72, 140, 1) 90%
+  );
   margin: 15px 40px 0 40px;
   border-radius: 20px;
   color: white;
@@ -981,44 +1001,45 @@ p {
   background-size: contain;
 }
 /* background by SVGBackgrounds.com */
-.program-header-bg-2{
+.program-header-bg-2 {
   height: 30vh;
   background-color: #010b55;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23010b55' cx='50' cy='0' r='50'/%3E%3Cg fill='%23011165' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23011875' cx='50' cy='100' r='50'/%3E%3Cg fill='%23012186' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23012a96' cx='50' cy='200' r='50'/%3E%3Cg fill='%230135a6' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%230141b7' cx='50' cy='300' r='50'/%3E%3Cg fill='%23024fc7' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23025dd7' cx='50' cy='400' r='50'/%3E%3Cg fill='%23016de8' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23017ff8' cx='50' cy='500' r='50'/%3E%3Cg fill='%230c90fe' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%231ca0fe' cx='50' cy='600' r='50'/%3E%3Cg fill='%232caffe' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%233dbdfe' cx='50' cy='700' r='50'/%3E%3Cg fill='%234dcafe' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235dd5ff' cx='50' cy='800' r='50'/%3E%3Cg fill='%236ddfff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%237de7ff' cx='50' cy='900' r='50'/%3E%3Cg fill='%238eefff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%239ef5ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-size: contain;}
-/* background by SVGBackgrounds.com */
-.program-header-bg-3{
-  height: 30vh;
- background-color: #034e55;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23034e55' cx='50' cy='0' r='50'/%3E%3Cg fill='%23035861' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2303626c' cx='50' cy='100' r='50'/%3E%3Cg fill='%23046c78' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23047684' cx='50' cy='200' r='50'/%3E%3Cg fill='%2304808f' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23048a9b' cx='50' cy='300' r='50'/%3E%3Cg fill='%230494a7' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23049db3' cx='50' cy='400' r='50'/%3E%3Cg fill='%2304a7bf' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2304b0ca' cx='50' cy='500' r='50'/%3E%3Cg fill='%2303bad6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2303c3e2' cx='50' cy='600' r='50'/%3E%3Cg fill='%2303ccef' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2303d5fb' cx='50' cy='700' r='50'/%3E%3Cg fill='%230cd8fd' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2317d9fd' cx='50' cy='800' r='50'/%3E%3Cg fill='%2323dafe' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%232edbfe' cx='50' cy='900' r='50'/%3E%3Cg fill='%233addff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2345deff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-size: contain;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23010b55' cx='50' cy='0' r='50'/%3E%3Cg fill='%23011165' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23011875' cx='50' cy='100' r='50'/%3E%3Cg fill='%23012186' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23012a96' cx='50' cy='200' r='50'/%3E%3Cg fill='%230135a6' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%230141b7' cx='50' cy='300' r='50'/%3E%3Cg fill='%23024fc7' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23025dd7' cx='50' cy='400' r='50'/%3E%3Cg fill='%23016de8' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23017ff8' cx='50' cy='500' r='50'/%3E%3Cg fill='%230c90fe' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%231ca0fe' cx='50' cy='600' r='50'/%3E%3Cg fill='%232caffe' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%233dbdfe' cx='50' cy='700' r='50'/%3E%3Cg fill='%234dcafe' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%235dd5ff' cx='50' cy='800' r='50'/%3E%3Cg fill='%236ddfff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%237de7ff' cx='50' cy='900' r='50'/%3E%3Cg fill='%238eefff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%239ef5ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
 }
 /* background by SVGBackgrounds.com */
-.program-header-bg-4{
+.program-header-bg-3 {
   height: 30vh;
-background-color: #6511aa;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%237F3' stroke-width='1' stroke-opacity='0.2'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #034e55;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23034e55' cx='50' cy='0' r='50'/%3E%3Cg fill='%23035861' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2303626c' cx='50' cy='100' r='50'/%3E%3Cg fill='%23046c78' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23047684' cx='50' cy='200' r='50'/%3E%3Cg fill='%2304808f' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23048a9b' cx='50' cy='300' r='50'/%3E%3Cg fill='%230494a7' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23049db3' cx='50' cy='400' r='50'/%3E%3Cg fill='%2304a7bf' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2304b0ca' cx='50' cy='500' r='50'/%3E%3Cg fill='%2303bad6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2303c3e2' cx='50' cy='600' r='50'/%3E%3Cg fill='%2303ccef' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2303d5fb' cx='50' cy='700' r='50'/%3E%3Cg fill='%230cd8fd' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2317d9fd' cx='50' cy='800' r='50'/%3E%3Cg fill='%2323dafe' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%232edbfe' cx='50' cy='900' r='50'/%3E%3Cg fill='%233addff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2345deff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
 }
 /* background by SVGBackgrounds.com */
-.program-header-bg-5{
+.program-header-bg-4 {
+  height: 30vh;
+  background-color: #6511aa;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%237F3' stroke-width='1' stroke-opacity='0.2'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* background by SVGBackgrounds.com */
+.program-header-bg-5 {
   height: 30vh;
   background-color: #550000;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23550000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23650006' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2374000e' cx='50' cy='100' r='50'/%3E%3Cg fill='%23840018' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23940023' cx='50' cy='200' r='50'/%3E%3Cg fill='%23a30031' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b30040' cx='50' cy='300' r='50'/%3E%3Cg fill='%23c30051' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d20065' cx='50' cy='400' r='50'/%3E%3Cg fill='%23e2007a' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f20090' cx='50' cy='500' r='50'/%3E%3Cg fill='%23ff02a9' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff12bc' cx='50' cy='600' r='50'/%3E%3Cg fill='%23ff21ce' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff31de' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ff41eb' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff50f8' cx='50' cy='800' r='50'/%3E%3Cg fill='%23fc60ff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f470ff' cx='50' cy='900' r='50'/%3E%3Cg fill='%23ee7fff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e98fff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23550000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23650006' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2374000e' cx='50' cy='100' r='50'/%3E%3Cg fill='%23840018' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23940023' cx='50' cy='200' r='50'/%3E%3Cg fill='%23a30031' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b30040' cx='50' cy='300' r='50'/%3E%3Cg fill='%23c30051' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d20065' cx='50' cy='400' r='50'/%3E%3Cg fill='%23e2007a' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f20090' cx='50' cy='500' r='50'/%3E%3Cg fill='%23ff02a9' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff12bc' cx='50' cy='600' r='50'/%3E%3Cg fill='%23ff21ce' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff31de' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ff41eb' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ff50f8' cx='50' cy='800' r='50'/%3E%3Cg fill='%23fc60ff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f470ff' cx='50' cy='900' r='50'/%3E%3Cg fill='%23ee7fff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e98fff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
 
-background-size: contain;
+  background-size: contain;
 }
 /* background by SVGBackgrounds.com */
-.program-header-bg-6{
+.program-header-bg-6 {
   height: 30vh;
-background-color: #515507;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23515507' cx='50' cy='0' r='50'/%3E%3Cg fill='%235f6308' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%236c7208' cx='50' cy='100' r='50'/%3E%3Cg fill='%237a8109' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23888f09' cx='50' cy='200' r='50'/%3E%3Cg fill='%23969e0a' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a3ad0a' cx='50' cy='300' r='50'/%3E%3Cg fill='%23b1bc0a' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bfcb0a' cx='50' cy='400' r='50'/%3E%3Cg fill='%23cedb0a' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dcea09' cx='50' cy='500' r='50'/%3E%3Cg fill='%23e7f60c' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e9f81a' cx='50' cy='600' r='50'/%3E%3Cg fill='%23ebf928' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23edfa36' cx='50' cy='700' r='50'/%3E%3Cg fill='%23eefb44' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f0fc52' cx='50' cy='800' r='50'/%3E%3Cg fill='%23f2fd60' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f3fe6f' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f5ff7d' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f6ff8c' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-size: contain;
+  background-color: #515507;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23515507' cx='50' cy='0' r='50'/%3E%3Cg fill='%235f6308' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%236c7208' cx='50' cy='100' r='50'/%3E%3Cg fill='%237a8109' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23888f09' cx='50' cy='200' r='50'/%3E%3Cg fill='%23969e0a' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a3ad0a' cx='50' cy='300' r='50'/%3E%3Cg fill='%23b1bc0a' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bfcb0a' cx='50' cy='400' r='50'/%3E%3Cg fill='%23cedb0a' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dcea09' cx='50' cy='500' r='50'/%3E%3Cg fill='%23e7f60c' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e9f81a' cx='50' cy='600' r='50'/%3E%3Cg fill='%23ebf928' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23edfa36' cx='50' cy='700' r='50'/%3E%3Cg fill='%23eefb44' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f0fc52' cx='50' cy='800' r='50'/%3E%3Cg fill='%23f2fd60' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f3fe6f' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f5ff7d' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f6ff8c' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
 }
-.program-header-bg-7{
+.program-header-bg-7 {
   height: 30vh;
-background-color: #2b5509;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%232b5509' cx='50' cy='0' r='50'/%3E%3Cg fill='%232f610a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23336d0a' cx='50' cy='100' r='50'/%3E%3Cg fill='%2336790b' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2339860b' cx='50' cy='200' r='50'/%3E%3Cg fill='%233b920b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c9f0b' cx='50' cy='300' r='50'/%3E%3Cg fill='%233eac0b' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%233eb90b' cx='50' cy='400' r='50'/%3E%3Cg fill='%233ec60b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%233ed30b' cx='50' cy='500' r='50'/%3E%3Cg fill='%233de00a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%233bee09' cx='50' cy='600' r='50'/%3E%3Cg fill='%233bf70d' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2340f818' cx='50' cy='700' r='50'/%3E%3Cg fill='%2346fa24' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%234bfb2f' cx='50' cy='800' r='50'/%3E%3Cg fill='%2352fc3b' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2359fd46' cx='50' cy='900' r='50'/%3E%3Cg fill='%2360fe52' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2368ff5e' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-size: contain;
+  background-color: #2b5509;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%232b5509' cx='50' cy='0' r='50'/%3E%3Cg fill='%232f610a' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23336d0a' cx='50' cy='100' r='50'/%3E%3Cg fill='%2336790b' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2339860b' cx='50' cy='200' r='50'/%3E%3Cg fill='%233b920b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c9f0b' cx='50' cy='300' r='50'/%3E%3Cg fill='%233eac0b' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%233eb90b' cx='50' cy='400' r='50'/%3E%3Cg fill='%233ec60b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%233ed30b' cx='50' cy='500' r='50'/%3E%3Cg fill='%233de00a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%233bee09' cx='50' cy='600' r='50'/%3E%3Cg fill='%233bf70d' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2340f818' cx='50' cy='700' r='50'/%3E%3Cg fill='%2346fa24' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%234bfb2f' cx='50' cy='800' r='50'/%3E%3Cg fill='%2352fc3b' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2359fd46' cx='50' cy='900' r='50'/%3E%3Cg fill='%2360fe52' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2368ff5e' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
 }
 .program .program-brand {
   height: 150px;
@@ -1540,8 +1561,8 @@ background-size: contain;
   height: 20px;
 }
 .process-slides::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg,#ff8a00,#e52e71);
-    border-radius: 30px;
+  background: linear-gradient(180deg, #ff8a00, #e52e71);
+  border-radius: 30px;
 }
 .process-slides::-webkit-scrollbar-track {
   background: transparent;
@@ -1550,17 +1571,16 @@ background-size: contain;
 .step-2,
 .step-3,
 .step-4,
-.step-5{
+.step-5 {
   flex-grow: 0;
   flex-shrink: 0;
   width: 385px;
   height: 300px;
   border-radius: 20px;
-  margin: 10px 20px 25px 20px; 
-  box-shadow:  6px 6px 12px #a1a1a1,
-             -6px -6px 12px #ffffff;
+  margin: 10px 20px 25px 20px;
+  box-shadow: 6px 6px 12px #a1a1a1, -6px -6px 12px #ffffff;
 }
-.procedure .process-header .card-header{
+.procedure .process-header .card-header {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -1572,7 +1592,7 @@ background-size: contain;
 }
 .process-slides .procedure .process-header i {
   color: rgb(255, 254, 254);
-  background: linear-gradient(180deg,#ff8a00,#e52e71);
+  background: linear-gradient(180deg, #ff8a00, #e52e71);
   padding: 12px 20px 12px 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -1593,40 +1613,40 @@ background-size: contain;
   font-weight: 500;
   font-size: 15px;
 }
-@media (max-width: 768px){
-  .admission-process .admission-header h2{
+@media (max-width: 768px) {
+  .admission-process .admission-header h2 {
     margin-left: 5px;
     padding: 10px 0 10px 10px;
     width: 200px;
     font-size: 18px;
   }
-  .admission-process .admission-header p{
+  .admission-process .admission-header p {
     font-size: 15px;
     padding-left: 20px;
     font-weight: 600;
   }
   .process-slider {
-  margin: 0;
-}
-  .process-slides::-webkit-scrollbar{
+    margin: 0;
+  }
+  .process-slides::-webkit-scrollbar {
     display: none;
   }
   .process-slides .step-1,
-.step-2,
-.step-3,
-.step-4,
-.step-5{
-  width: 295px;
-  margin: 10px 25px 25px 20px;
-}
-.process-slides .procedure .process-header .step-heading{
-  padding: 10px 5px 5px 10px;
-}
-.process-slides .procedure .process-body {
-  padding: 10px 5px 5px 10px;
-  font-weight: 500;
-  font-size: 12px;
-}
+  .step-2,
+  .step-3,
+  .step-4,
+  .step-5 {
+    width: 295px;
+    margin: 10px 25px 25px 20px;
+  }
+  .process-slides .procedure .process-header .step-heading {
+    padding: 10px 5px 5px 10px;
+  }
+  .process-slides .procedure .process-body {
+    padding: 10px 5px 5px 10px;
+    font-weight: 500;
+    font-size: 12px;
+  }
 }
 /* =========================fee structure================ */
 .fee-structure {
@@ -1828,7 +1848,8 @@ h5 {
   font-family: "Varela Round", sans-serif;
   font-weight: bold;
 }
-.login-box .input-grp #err-uname, #err-pass{
+.login-box .input-grp #err-uname,
+#err-pass {
   color: red;
   font-size: 12px;
   font-weight: normal;
@@ -1841,11 +1862,11 @@ h5 {
   font-family: "Abel", sans-serif;
   border-radius: 20px;
 }
-.input-grp .remember label{
+.input-grp .remember label {
   font-size: 12px;
   font-weight: normal;
 }
-.input-grp .forgot a{
+.input-grp .forgot a {
   font-size: 12px;
   font-weight: normal;
 }
@@ -1859,30 +1880,42 @@ h5 {
   font-size: 15px;
   padding-left: 25px;
   padding-right: 25px;
-  background-image: linear-gradient( 109.5deg,  rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
+  background-image: linear-gradient(
+    109.5deg,
+    rgba(76, 221, 242, 1) 11.2%,
+    rgba(92, 121, 255, 1) 91.1%
+  );
   color: white;
 }
 .login-box .submit-btn .btn:hover {
-  background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(48, 207, 208, 1) 11.2%,
+    rgba(51, 8, 103, 1) 92.5%
+  );
 }
 .login-box .register-form {
   padding: 10px 0 5px 0;
 }
-/* ============registeration form styling============= */
-
-.register {
-  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
-  padding: 30px 20px 50px 20px;
-  box-shadow: 1px 1px 6px 0 rgb(90, 87, 87), 0px 0px 6px 0 #000;
-  width: 100%;
-  height: 100%;
+@media (max-width: 768px) {
+  .login-box .input-grp label {
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
-.register-left {
+/* ============sign-up form styling============= */
+
+.sign {
+  padding: 30px 20px 50px 20px;
+  width: 100%;
+  height: auto;
+}
+.sign-left {
   text-align: center;
   color: #fff;
   margin-top: 4%;
 }
-.register-left input {
+.sign-left input {
   border: none;
   border-radius: 1.5rem;
   padding: 2%;
@@ -1895,7 +1928,7 @@ h5 {
   cursor: pointer;
 }
 
-.register-left .rocket {
+.sign-left .rocket {
   margin-top: 15%;
   margin-bottom: 5%;
   margin-left: 35%;
@@ -1903,7 +1936,7 @@ h5 {
   -webkit-animation: mover 2s infinite alternate;
   animation: mover 1s infinite alternate;
 }
-.register-left .rocket i {
+.sign-left .rocket i {
   font-size: 50px;
 }
 @-webkit-keyframes mover {
@@ -1922,43 +1955,232 @@ h5 {
     transform: translateY(-20px);
   }
 }
-.register-left p {
+.sign-left p {
   padding: 20px 10px 5px 10px;
 }
-.register-left img {
+.sign-left img {
   padding-bottom: 20px;
 }
-.register-right {
+.sign-right {
   background: #f8f9fa;
   border-top-left-radius: 10% 50%;
   border-bottom-left-radius: 10% 50%;
   font-family: "Tajawal", sans-serif;
   box-shadow: 1px 1px 6px 0 rgb(90, 87, 87), 0px 0px 6px 0 #000;
 }
-.register .register-form {
+.sign .sign-form {
   padding: 10%;
   margin-top: 8%;
 }
 
-.register-heading {
+.sign-heading {
   text-align: center;
   margin-top: 8%;
   margin-bottom: -15%;
   color: #495057;
 }
-.btnRegister {
-  float: right;
-  margin-top: 10%;
-  border: none;
-  border-radius: 1.5rem;
-  padding: 2%;
-  background: #0062cc;
-  color: #fff;
-  font-weight: 600;
-  width: 50%;
-  cursor: pointer;
-}
-.register .register-form .form-group label {
+.sign .sign-form .form-group label {
   font-weight: bold;
   font-family: "Exo", sans-serif;
+}
+.sign-form .sign-btn .btn {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-image: linear-gradient(
+    109.5deg,
+    rgba(76, 221, 242, 1) 11.2%,
+    rgba(92, 121, 255, 1) 91.1%
+  );
+  color: white;
+}
+.sign-form .sign-btn .btn:hover {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(48, 207, 208, 1) 11.2%,
+    rgba(51, 8, 103, 1) 92.5%
+  );
+}
+
+/* ===================registeration form================= */
+.top-bg {
+  background: #ededed;
+}
+.register-modal {
+  background: #ededed;
+  height: 100%;
+}
+.register-modal .bg-left {
+  clip-path: circle(50% at 8% 50%);
+  height: 200px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(247, 247, 247) 11.2%,
+    rgb(163, 162, 165) 92.5%
+  );
+  width: 180px;
+  position: absolute;
+  margin-top: 50px;
+}
+.register-modal .bg-right {
+  clip-path: circle(50% at 100% 50%);
+  height: 200px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(163, 162, 165) 11.2%,
+    rgb(247, 247, 247) 92.5%
+  );
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.registration-box {
+  width: 100%;
+  margin-top: -120px;
+}
+.registration-from {
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+  background: #ededed;
+  box-shadow: 5px 5px 8px #5f5f5f, -5px -5px 8px #ffffff;
+}
+.registration-from .form-header {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(123, 90, 224, 1) 11.2%,
+    rgba(164, 46, 253, 1) 32.6%,
+    rgba(213, 56, 234, 1) 62.7%,
+    rgba(251, 138, 52, 1) 100.2%
+  );
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 25px;
+}
+.registration-from .form-body .img-box {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.registration-from .form-body .img-box img {
+  width: 100px;
+}
+.registration-from .form-body .form-slog {
+  color: #000;
+  font-family: "Varela Round", sans-serif;
+}
+.registration-from .form-body .form-slog h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.registration-from .form-body .form-title {
+  font-family: "Varela Round", sans-serif;
+  margin: 20px 0 20px 0;
+}
+.registration-from .form-body .form-title i {
+  color: rgb(134, 40, 189);
+  padding-right: 10px;
+}
+.registration-from .form-body .form-title h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  width: 400px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #cab2f8, #aa95d1);
+  box-shadow: 5px 5px 6px #b8b8b8, -5px -5px 6px #ffffff;
+}
+
+.registration-from .form-row .form-group label {
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.registration-from .form-row .form-group .input-group .input-group-prepend i {
+  color: rgb(63, 60, 62);
+}
+.registration-from .form-row .form-group .input-group .input-group-text {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.registration-from .form-row .form-group .input-group input {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.registration-from
+  .form-row
+  .form-group
+  .input-group
+  input::-webkit-input-placeholder {
+  font-size: 12px;
+  font-family: "Varela Round", sans-serif;
+}
+.registration-from .details-title h5 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 15px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 5px 5px 6px #b8b8b8, -5px -5px 6px #ffffff;
+}
+.registration-from .register-button {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.registration-from .register-button .register-btn{
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 7, 7, 1) 0%,
+    rgba(255, 41, 41, 1) 100.7%
+  );
+  border-radius: 20px;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 8px 8px 9px 0 rgba(255, 255, 255, 0.3) inset,
+    -6px -6px 8px 0 rgba(0, 0, 0, 0.25) inset;
+}
+.registration-from .register-button .register-btn:hover {
+  box-shadow: inset 0px 4px 5px -4px rgba(0, 0, 0, 0.75),
+    inset -2px -2px 4px 0 rgba(255, 255, 255, 0.5);
+}
+.registration-from .form-footer {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(123, 90, 224, 1) 11.2%,
+    rgba(164, 46, 253, 1) 32.6%,
+    rgba(213, 56, 234, 1) 62.7%,
+    rgba(251, 138, 52, 1) 100.2%
+  );
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 25px;
+}
+.bottom-bg {
+  background: #ededed;
+}
+@media (max-width: 768px){
+.registration-box {
+  margin-top: 0;
+}
+.registration-from .form-body .img-box img {
+  width: 80px;
+}
+.registration-from .form-body .form-slog h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.registration-from .form-body .form-title h5 {
+  font-size: 12px;
+  font-weight: 500;
+  width: 200px;
+}
+.registration-from .details-title h5 {
+  font-size: 12px;
+  width: 200px;
+  border-radius: 20px;
+}
 }
