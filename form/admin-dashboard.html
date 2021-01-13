@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../dist/css/style.css" />
+  <link rel="stylesheet" href="../dist/fontawesome-5.14.0-web/css/all.css" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../dist/icons/ecmt_logo.png">
+  <!-- JS, Popper.js, and jQuery -->
+  <script type="text/javascript" src="../dist/js/popper.js"></script>
+  <script type="text/javascript" src="../dist/js/jquery.js"></script>
+  <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+  <title>Admin | Dashboard</title>
+</head>
+<body>
+
+  <!-- ================admin-top-bar================= -->
+  <section class="sticky-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="admin-top-bar fixed-top">
+          <div class="top-box">
+            <div class="d-flex">
+
+              <!-- ============left toggle bar================ -->
+              <div class="mr-auto top-left">
+                <i class="fa fa-bars" data-trigger="#admin-sidebar"></i>
+                <a href="#"><img src="../dist/icons/ecmt_logo.png" alt="brand-logo"></a>
+              </div>
+  
+              <ul>
+                <!-- =====================new registeration===================== -->
+                <li class="dropdown messg">
+                  <div class="top-links" id="new-message" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="far fa-envelope"><span class="new-emails">10</span></i>
+                  </div>
+  
+                  <div class="dropdown-menu" aria-labelledby="new-message">
+                    <h6 class="dropdown-header">
+                      <span>New Registration</span>
+                      <div class="mark-all-read">
+                        <a href="#">Mark all as read</a>
+                      </div>
+                    </h6>
+                    <div class="dropdown-body">
+                      <a href="#" class="dropdown-item unread">
+                        <div class="user-avatar">
+                          <img src="../dist/alumuni/deepak.png" alt="" />
+                        </div>
+                        <div class="dropdown-item-body">
+                          <p class="user-name">Name : <span>Deepak sahu</span></p>
+                          <p class="text degree">Course : <span>BCA</span></p>
+                          <span class="date">2 hours ago</span>
+                        </div>
+                      </a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <p class="no-message">huuuray no messages</p>
+                    </div>
+                    <a href="#" class="dropdown-footer">All messages</a>
+                  </div>
+  
+                </li>
+
+                <!-- =========================new counsle data=================== -->
+                <li class="dropdown counsle">
+                  <div class="top-links" id="new-counsle-session" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-headset"><span class="new-counsle">10</span></i>
+                  </div>
+                    <div class="dropdown-menu" aria-labelledby="new-counsle-session">
+                      <h6 class="dropdown-header">
+                        <span>New counsling </span>
+                        <div class="mark-all-read">
+                          <a href="#">Mark all as read</a>
+                        </div>
+                      </h6>
+                      <div class="dropdown-body">
+                        <a href="#" class="dropdown-item unread">
+                          <div class="dropdown-item-body">
+                            <p class="user-name">Name : <span>Deepak sahu</span></p>
+                            <p class="text counsle-phone-number">Number : <span>8754235698</span></p>
+                            <p class="text counsle-email">Email : <span>deepaksahu@gmail.com</span></p>
+                            <span class="date">2 hours ago</span>
+                          </div>
+                        </a>
+                      <a href="#" class="dropdown-item unread">
+                        <div class="dropdown-item-body">
+                          <p class="user-name">Name : <span>Deepak sahu</span></p>
+                          <p class="text counsle-phone-number">Number : <span>8754235698</span></p>
+                          <p class="text counsle-email">Email : <span>deepaksahu@gmail.com</span></p>
+                          <span class="date">2 hours ago</span>
+                        </div>
+                      </a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <p class="no-message">huuuray no messages</p>
+                      </div>
+                      <a href="#" class="dropdown-footer">All messages</a>
+                    </div>
+                </li>
+                
+                <!-- ====================admin profile dropdown==================== -->
+                <li class="dropdown profile-setting">
+                  <div id="profile-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="d-flex">
+                      <div class="admin-img">
+                        <img src="../dist/alumuni/deepak.png" alt="" />
+                      </div>
+                      <div class="admin-info">
+                        <span class="account-name">Deepak sahu</span>
+                        <span class="account-description">Marketing Manager</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropdown-menu" aria-labelledby="profile-menu">
+                    <a class="dropdown-item" href="#">Delivered Status</a>
+                    <a class="dropdown-item" href="#">Log details</a>
+                  </div>
+                </li>
+  
+              </ul>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =============screen over lay along with sidebar============== -->
+  <div class="screen-overlay"></div>
+
+  <!-- =========================admin sidebar========================= -->
+
+  <section class="admin-sidebar" id="admin-sidebar">
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <!-- ================admin profile display on mobile phone  -->
+        <li data-toggle="collapse" href="#admin-setting" role="button" aria-expanded="false"
+          aria-controls="admin-setting">
+          <div id="profile-menu" class="profile-setting">
+            <div class="d-flex">
+              <div class="admin-img">
+                <img src="../dist/alumuni/deepak.png" alt="" />
+              </div>
+              <span class="dropdown-icon"><span class="fa fa-caret-down"></span></span>
+              <div class="admin-info">
+                <span class="account-name">Deepak sahu</span>
+                <span class="account-description">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="admin-setting">
+            <div class="admin-setting-links">
+              <ul>
+                <li><a href="../index.html"><i class="fas fa-headset"></i> Sub link 1</a></li>
+                <li><a href="#"><i class="fas fa-headset"></i> Sub link 2</a></li>
+                <li><a href="#"><i class="fas fa-headset"></i> Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <!-- ================menu-1- dashboard================ -->
+        <li class="menu-heading">
+          <p class="text-muted">Dashboard</p>
+        </li>
+        <!-- =======================dashboard-sub-menu-1 ==================-->
+        <li class="menu-link">
+          <a href="#" class="page-link"><span><i class="fas fa-headset"></i> Home</span>
+          </a>
+        </li>
+        <!-- =======================dashboard-sub-menu-2 ==================-->
+        <li data-toggle="collapse" href="#link1" role="button" aria-expanded="false"
+          aria-controls="link1">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link1">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <!-- =======================dashboard-sub-menu-3 ==================-->
+        <li data-toggle="collapse" href="#link2" role="button" aria-expanded="false"
+          aria-controls="link2">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link2">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+  
+        <!-- =======================dashboard-sub-menu-4 ==================-->
+        <li data-toggle="collapse" href="#link3" role="button" aria-expanded="false"
+          aria-controls="link3">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link3">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+  
+        <!-- ================menu-2- Interface================ -->
+  
+        <li class="menu-heading">
+          <p class="text-muted">Interface</p>
+        </li>
+        <li data-toggle="collapse" href="#link4" role="button" aria-expanded="false"
+          aria-controls="link4">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link4">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+  
+        <li data-toggle="collapse" href="#link5" role="button" aria-expanded="false"
+          aria-controls="link5">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link5">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+  
+        <li data-toggle="collapse" href="#link6" role="button" aria-expanded="false"
+          aria-controls="link6">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link6">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+        </li>
+  
+        <li data-toggle="collapse" href="#link7" role="button" aria-expanded="false"
+          aria-controls="link7">
+          <div class="sidebar-link">
+            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+                  class="fas fa-angle-right"></i></span></p>
+          </div>
+          <div class="collapse" id="link7">
+            <div class="dropdown-sub-links">
+              <ul>
+                <li><a href="../index.html">Sub link 1</a></li>
+                <li><a href="#">Sub link 2</a></li>
+                <li><a href="#">Sub link 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+  
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======================sidebar toggle script================ -->
+
+  <script>
+    $(document).ready(function () {
+      // jQuery code
+      $("[data-trigger]").on("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var offcanvas_id = $(this).attr('data-trigger');
+        $(offcanvas_id).toggleClass("show");
+        $(".screen-overlay").toggleClass("show");
+      });
+
+      // Close menu when pressing ESC
+      $(document).on('keydown', function (event) {
+        if (event.keyCode === 27) {
+          $(".admin-sidebar").removeClass("show");
+          $("body").removeClass("overlay-active");
+        }
+      });
+
+      $(".btn-close, .screen-overlay").click(function (e) {
+        $(".screen-overlay").removeClass("show");
+        $(".admin-sidebar").removeClass("show");
+        $("body").removeClass("offcanvas-active");
+
+      });
+    }); // jquery end
+  </script>
+
+</body>
+</html>
