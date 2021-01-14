@@ -175,22 +175,23 @@
         </li>
         <!-- =======================dashboard-sub-menu-1 ==================-->
         <li class="menu-link">
-          <a href="#" class="page-link"><span><i class="fas fa-headset"></i> Home</span>
+          <a href="admin-dashboard.html" class="page-link"><span><i class="fas fa-headset"></i> Home</span>
           </a>
         </li>
         <!-- =======================dashboard-sub-menu-2 ==================-->
         <li data-toggle="collapse" href="#link1" role="button" aria-expanded="false"
           aria-controls="link1">
           <div class="sidebar-link">
-            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+            <p><span><i class="fas fa-headset"></i> Registration</span> <span class="rarrow"><i
                   class="fas fa-angle-right"></i></span></p>
           </div>
           <div class="collapse" id="link1">
             <div class="dropdown-sub-links">
               <ul>
-                <li><a href="../index.html">Sub link 1</a></li>
-                <li><a href="#">Sub link 2</a></li>
-                <li><a href="#">Sub link 3</a></li>
+                <li><a href="registeration-data.html#new-data">New Registration</a></li>
+                <li><a href="registeration-data.html#approved-data">Approved</a></li>
+                <li><a href="registeration-data.html">Rejected</a></li>
+                <li><a href="registeration-data.html">Completed</a></li>
               </ul>
             </div>
           </div>
@@ -199,15 +200,16 @@
         <li data-toggle="collapse" href="#link2" role="button" aria-expanded="false"
           aria-controls="link2">
           <div class="sidebar-link">
-            <p><span><i class="fas fa-headset"></i> Link one</span> <span class="rarrow"><i
+            <p><span><i class="fas fa-headset"></i> Counsle</span> <span class="rarrow"><i
                   class="fas fa-angle-right"></i></span></p>
           </div>
           <div class="collapse" id="link2">
             <div class="dropdown-sub-links">
               <ul>
-                <li><a href="../index.html">Sub link 1</a></li>
-                <li><a href="#">Sub link 2</a></li>
-                <li><a href="#">Sub link 3</a></li>
+                <li><a href="../index.html">New counsle</a></li>
+                <li><a href="#">Approved</a></li>
+                <li><a href="#">Rejected</a></li>
+                <li><a href="#">Completed</a></li>
               </ul>
             </div>
           </div>
@@ -223,9 +225,10 @@
           <div class="collapse" id="link3">
             <div class="dropdown-sub-links">
               <ul>
-                <li><a href="../index.html">Sub link 1</a></li>
-                <li><a href="#">Sub link 2</a></li>
-                <li><a href="#">Sub link 3</a></li>
+                <li><a href="../index.html">New counsle</a></li>
+                <li><a href="#">Approved</a></li>
+                <li><a href="#">Rejected</a></li>
+                <li><a href="#">Completed</a></li>
               </ul>
             </div>
           </div>
@@ -306,7 +309,92 @@
       </ul>
     </div>
   </section>
+  <!-- ==========================content section========================= -->
+  <section class="content">
+    <div class="container-fluid">
+      <div class="admin-welcome-mssg">
+          <p>Hi, <span class="admin-fname">Deepak</span></p>
+          <p class="text-muted">Here’s what’s happening with your business today.</p>
+      </div>
 
+      <div class="admin-dashboard-view">
+        <div class="row">
+
+          <div class="col-6 col-md-3">
+            <a href="#">
+            <div class="task-card text-center">
+              <div class="task-header-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#0099ff" fill-opacity="1"
+                    d="M0,288L48,250.7C96,213,192,139,288,101.3C384,64,480,64,576,69.3C672,75,768,85,864,112C960,139,1056,181,1152,176C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                  </path>
+                </svg>
+              </div>
+              <div class="task-icon"><i class="fas fa-headset"></i></div>
+              <div class="task-card-body">
+                <p class="task-title">Registration</p>
+                <p class="total-task">Total : <Span>58</Span></p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="task-card text-center">
+              <div class="task-header-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#0099ff" fill-opacity="1"
+                    d="M0,288L48,250.7C96,213,192,139,288,101.3C384,64,480,64,576,69.3C672,75,768,85,864,112C960,139,1056,181,1152,176C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                  </path>
+                </svg>
+              </div>
+              <div class="task-icon"><i class="fas fa-headset"></i></div>
+              <div class="task-card-body">
+                <p class="task-title">Counsle</p>
+                <p class="total-task">Total : <Span>58</Span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="task-card text-center">
+              <div class="task-header-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#0099ff" fill-opacity="1"
+                    d="M0,288L48,250.7C96,213,192,139,288,101.3C384,64,480,64,576,69.3C672,75,768,85,864,112C960,139,1056,181,1152,176C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                  </path>
+                </svg>
+              </div>
+              <div class="task-icon"><i class="fas fa-headset"></i></div>
+              <div class="task-card-body">
+                <p class="task-title">Joined Us</p>
+                <p class="total-task">Total : <Span>58</Span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="task-card text-center">
+              <div class="task-header-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#0099ff" fill-opacity="1"
+                    d="M0,288L48,250.7C96,213,192,139,288,101.3C384,64,480,64,576,69.3C672,75,768,85,864,112C960,139,1056,181,1152,176C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                  </path>
+                </svg>
+              </div>
+              <div class="task-icon"><i class="fas fa-headset"></i></div>
+              <div class="task-card-body">
+                <p class="task-title">Admission</p>
+                <p class="total-task">Total : <Span>58</Span></p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- ======================sidebar toggle script================ -->
 
   <script>
