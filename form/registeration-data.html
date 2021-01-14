@@ -319,7 +319,7 @@
                             <div class="muted-task-card text-center">
                                 <div class="muted-task-header d-flex">
                                         <div class="p-1 muted-task-icon"><i class="fas fa-headset"></i></div>
-                                        <div class="p-1 dot-right"></div>
+                                        <div class="p-1 dot-right bg-primary"></div>
                                 </div>
                                 
                                 <div class="muted-task-card-body">
@@ -333,7 +333,7 @@
                             <div class="muted-task-card text-center">
                                 <div class="muted-task-header d-flex">
                                         <div class="p-1 muted-task-icon"><i class="fas fa-headset"></i></div>
-                                        <div class="p-1 dot-right"></div>
+                                        <div class="p-1 dot-right bg-warning"></div>
                                 </div>
                                 
                                 <div class="muted-task-card-body">
@@ -347,7 +347,7 @@
                         <div class="muted-task-card text-center">
                             <div class="muted-task-header d-flex">
                                 <div class="p-1 muted-task-icon"><i class="fas fa-headset"></i></div>
-                                <div class="p-1 dot-right"></div>
+                                <div class="p-1 dot-right bg-success"></div>
                             </div>
                     
                             <div class="muted-task-card-body">
@@ -361,7 +361,7 @@
                         <div class="muted-task-card text-center">
                             <div class="muted-task-header d-flex">
                                 <div class="p-1 muted-task-icon"><i class="fas fa-headset"></i></div>
-                                <div class="p-1 dot-right"></div>
+                                <div class="p-1 dot-right bg-danger"></div>
                             </div>
                     
                             <div class="muted-task-card-body">
@@ -380,7 +380,7 @@
                     <!-- =====================new data==================== -->
                     <div class="col-lg-6 col-md-6">
                         <div class="new-data" id="new-data">
-                            <div class="new-data-header d-flex">
+                            <div class="new-data-header d-flex bg-primary">
                                     <div class="p-1 new-data-title">New Data</div>
                                     <div class="new-data-search">
                                         <form class="d-flex">
@@ -397,7 +397,7 @@
                                                     <img src="../dist/alumuni/deepak.png" alt="">
                                                 </div>
                                                 <div class="w-100 new-data-user-info">
-                                                    <p>Name : <span>Deepak</span></p>
+                                                    <p>Name : <span>Deepak</span> <span>Sahu</span></p>
                                                     <p>Applied for : <span>BCA</span></p>
                                                 </div>
                                                 <div class="flex-shrink-1 new-data-drop-icon"><i class="fas fa-angle-up"></i></div>
@@ -507,10 +507,10 @@
                                                 <img src="../dist/alumuni/deepak.png" alt="">
                                             </div>
                                             <div class="w-100 approved-data-user-info">
-                                                <p>Name : <span>Deepak</span></p>
+                                                <p>Name : <span>Deepak</span> <span>Sahu</span></p>
                                                 <p>Applied for : <span>BCA</span></p>
                                             </div>
-                                            <div class="flex-shrink-1 p-3  text-success"><i class="fa fa-spinner fa-spin"></i></div>
+                                            <div class="flex-shrink-1 p-3  text-info"><i class="fa fa-spinner fa-spin"></i></div>
                                             <div class="flex-shrink-1 approved-data-drop-icon"><i class="fas fa-angle-up"></i></div>
                                         </div>
                                     </div>
@@ -582,10 +582,15 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <div class="data-progress p-1">
-                                                <div class="text-success text-center">
-                                                    <p><i class="fa fa-spinner fa-spin"></i>In progress</p>
-                                               </div>
+                                        <div class="data-progress card-footer">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="progress-status">
+                                                    <span class="text-info"><i class="fa fa-spinner fa-spin"></i>In progress</sapn>
+                                                </div>
+                                                <div class="assigned-to">
+                                                    <span class="text-muted">Assigned to : <span>DK</span></span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </ul>
                                 </div>
@@ -597,39 +602,230 @@
                 </div>
 
                 <div class="row">
+                    <!-- =====================Completed data==================== -->
                     <div class="col-lg-6 col-md-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="d-flex bd-highlight">
-                                    <div class="p-2 flex-fill bd-highlight">Flex item with a lot of content</div>
-                                    <div class="p-2 flex-fill bd-highlight">Flex item</div>
+                        <div class="compelted-data" id="new-data">
+                            <div class="compelted-data-header d-flex">
+                                <div class="p-1 compelted-data-title">Completed Data</div>
+                                <div class="compelted-data-search">
+                                    <form class="d-flex">
+                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                2 days ago
+                            <div class="compelted-data-body">
+                                <div class="compelted-data-box">
+                                    <div data-toggle="collapse" data-target="#compelted-data-info">
+                                        <div class="d-flex compelted-data-desc">
+                                            <div class="p-2 flex-shrink-1 user-img">
+                                                <img src="../dist/alumuni/deepak.png" alt="">
+                                            </div>
+                                            <div class="w-100 compelted-data-user-info">
+                                                <p>Name : <span>Deepak</span> <span>Sahu</span></p>
+                                                <p>Applied for : <span>BCA</span></p>
+                                            </div>
+                                            <div class="flex-shrink-1 p-3  text-success"><i class="far fa-check-circle"></i></div>
+                                            <div class="flex-shrink-1 compelted-data-drop-icon"><i class="fas fa-angle-up"></i></div>
+                                        </div>
+                                    </div>
+                    
+                                    <ul class="collapse compelted-data-info" id="compelted-data-info">
+                                        <!-- ======user-personal-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">Personal Details</span>
+                                        </li>
+                                        <li class="user-details user-personal-details">
+                                            <div class="d-flex">
+                                                <div class="user-name">
+                                                    <p>Name : <span class="text-muted">Deepak</span><span class="text-muted"> Sahu</span>
+                                                    </p>
+                                                </div>
+                                                <div class="user-age">
+                                                    <p>Age : <span class="text-muted">18</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ======user-10th-education-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">10th Education Details</span>
+                                        </li>
+                                        <li class="user-details user-education-details">
+                                            <div class="d-flex">
+                                                <div class="10th-Board">
+                                                    <p>Board : <span class="text-muted">CBSE</span></p>
+                                                </div>
+                                                <div class="10th-yop">
+                                                    <p>YOP : <span class="text-muted">2016</span></p>
+                                                </div>
+                                                <div class="10th-marks">
+                                                    <p>Marks : <span class="text-muted">86</span> <span class="text-muted">YGPA</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ======user-12th-education-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">12th Education Details</span>
+                                        </li>
+                                        <li class="user-details user-education-details">
+                                            <div class="d-flex">
+                                                <div class="12th-Board">
+                                                    <p>Board : <span class="text-muted">CBSE</span></p>
+                                                </div>
+                                                <div class="12th-yop">
+                                                    <p>YOP : <span class="text-muted">2016</span></p>
+                                                </div>
+                                                <div class="12th-marks">
+                                                    <p>Marks : <span class="text-muted">86</span> <span class="text-muted">YGPA</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ======user-subject-education-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">Subject prefrences</span>
+                                        </li>
+                                        <li class="user-details user-subject-details ">
+                                            <div class="d-flex">
+                                                <div class="12th-sub-1">
+                                                    <p>Maths : <span>Yes</span></p>
+                                                </div>
+                                                <div class="12th-sub-2">
+                                                    <p>Computer : <span>Yes</span></p>
+                                                </div>
+                                                <div class="12th-sub-3">
+                                                    <p>Chemistry : <span>Yes</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <div class="data-progress card-footer">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="complete-status">
+                                                    <span class="text-success">By : <span>DK</span></sapn>
+                                                </div>
+                                                <div class="complete-date">
+                                                    <span class="text-muted">Date :16-1-21</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                    
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- =====================Rejected data==================== -->
                     <div class="col-lg-6 col-md-6">
-                        <div class="card">
-                            <div class="card-header">
-                                Featured
+                        <div class="rejected-data" id="rejected-data">
+                            <div class="rejected-data-header d-flex">
+                                <div class="p-1 rejected-data-title">Rejected Data</div>
+                                <div class="rejected-data-search">
+                                    <form class="d-flex">
+                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                            <div class="card-footer text-muted">
-                                2 days ago
+                            <div class="rejected-data-body">
+                                <div class="rejected-data-box">
+                                    <div data-toggle="collapse" data-target="#rejected-data-info">
+                                        <div class="d-flex rejected-data-desc">
+                                            <div class="p-2 flex-shrink-1 user-img">
+                                                <img src="../dist/alumuni/deepak.png" alt="">
+                                            </div>
+                                            <div class="w-100 rejected-data-user-info">
+                                                <p>Name : <span>Deepak</span> <span>Sahu</span></p>
+                                                <p>Applied for : <span>BCA</span></p>
+                                            </div>
+                                            <div class="flex-shrink-1 p-3  text-danger"><i class="far fa-times-circle"></i></div>
+                                            <div class="flex-shrink-1 approved-data-drop-icon"><i class="fas fa-angle-up"></i></div>
+                                        </div>
+                                    </div>
+                    
+                                    <ul class="collapse rejected-data-info" id="rejected-data-info">
+                                        <!-- ======user-personal-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">Personal Details</span>
+                                        </li>
+                                        <li class="user-details user-personal-details">
+                                            <div class="d-flex">
+                                                <div class="user-name">
+                                                    <p>Name : <span class="text-muted">Deepak</span><span class="text-muted"> Sahu</span>
+                                                    </p>
+                                                </div>
+                                                <div class="user-age">
+                                                    <p>Age : <span class="text-muted">18</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ======user-10th-education-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">10th Education Details</span>
+                                        </li>
+                                        <li class="user-details user-education-details">
+                                            <div class="d-flex">
+                                                <div class="10th-Board">
+                                                    <p>Board : <span class="text-muted">CBSE</span></p>
+                                                </div>
+                                                <div class="10th-yop">
+                                                    <p>YOP : <span class="text-muted">2016</span></p>
+                                                </div>
+                                                <div class="10th-marks">
+                                                    <p>Marks : <span class="text-muted">86</span> <span class="text-muted">YGPA</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ======user-12th-education-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">12th Education Details</span>
+                                        </li>
+                                        <li class="user-details user-education-details">
+                                            <div class="d-flex">
+                                                <div class="12th-Board">
+                                                    <p>Board : <span class="text-muted">CBSE</span></p>
+                                                </div>
+                                                <div class="12th-yop">
+                                                    <p>YOP : <span class="text-muted">2016</span></p>
+                                                </div>
+                                                <div class="12th-marks">
+                                                    <p>Marks : <span class="text-muted">86</span> <span class="text-muted">YGPA</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- ======user-subject-education-information================== -->
+                                        <li>
+                                            <i class="far fa-clipboard text-muted"></i><span class="text-info">Subject prefrences</span>
+                                        </li>
+                                        <li class="user-details user-subject-details ">
+                                            <div class="d-flex">
+                                                <div class="12th-sub-1">
+                                                    <p>Maths : <span>Yes</span></p>
+                                                </div>
+                                                <div class="12th-sub-2">
+                                                    <p>Computer : <span>Yes</span></p>
+                                                </div>
+                                                <div class="12th-sub-3">
+                                                    <p>Chemistry : <span>Yes</span></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <div class="data-progress card-footer">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="reject-status">
+                                                    <span class="text-danger">By : <span>DK</span></sapn>
+                                                </div>
+                                                <div class="rejected-date">
+                                                    <span class="text-muted">Date :16-1-21</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </div>
+                    
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 
